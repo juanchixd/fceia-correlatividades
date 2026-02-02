@@ -1,0 +1,343 @@
+{
+    "carrera": "Profesorado en Matemática",
+    "materias": [
+        {
+            "id": "PM3",
+            "label": "Práctica Profesional Docente I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE1",
+            "label": "Algebra y Geometría Analítica I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE2",
+            "label": "Análisis Matemático I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "PM1",
+            "label": "Resolución de Problemas",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE4",
+            "label": "Algebra y Geometría Analítica II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "CE5",
+            "label": "Análisis Matemático II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "PM2",
+            "label": "Recursos Tecnológicos en Educ. Matemática",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "CE11",
+            "label": "Historia Social y del Sist. Educ. Argentino",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "CE12",
+            "label": "Pedagogía",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "CE6",
+            "label": "Análisis Matemático III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "CE7",
+            "label": "Programación",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "CE9",
+            "label": "Algebra Lineal I",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "PM4",
+            "label": "Práctica Profesional Docente II",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "CE10",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "CE13",
+            "label": "Currículum y Didáctica",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "CE14",
+            "label": "Sujetos y Aprendizajes",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PM5",
+            "label": "Geometrías del Plano",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "CE8",
+            "label": "Matemática Discreta",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PM9",
+            "label": "Práctica Profesional Docente III",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PM8",
+            "label": "Didáctica de la Matemática",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "CE15",
+            "label": "Examen de Suficiencia de Inglés",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PM6",
+            "label": "Geometrías del Espacio",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PM7",
+            "label": "Tópicos de Física",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PM10",
+            "label": "Algebra Superior",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PM11",
+            "label": "Historia y Fundamentos de la Matemática",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PM12",
+            "label": "Análisis Superior",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PM14",
+            "label": "Práctica Profesional Docente IV",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "PM15",
+            "label": "Proyectos Innovadores en Educ. Matemática",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "PM13",
+            "label": "Modelos Matemáticos",
+            "cuatrimestre": 8
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "CE1",
+            "target": "CE4"
+        },
+        {
+            "source": "CE2",
+            "target": "CE5"
+        },
+        {
+            "source": "CE1",
+            "target": "CE12"
+        },
+        {
+            "source": "CE2",
+            "target": "PM4"
+        },
+        {
+            "source": "CE4",
+            "target": "PM4"
+        },
+        {
+            "source": "PM3",
+            "target": "PM4"
+        },
+        {
+            "source": "CE4",
+            "target": "CE6"
+        },
+        {
+            "source": "CE5",
+            "target": "CE6"
+        },
+        {
+            "source": "CE4",
+            "target": "CE9"
+        },
+        {
+            "source": "CE6",
+            "target": "CE10"
+        },
+        {
+            "source": "PM3",
+            "target": "PM9"
+        },
+        {
+            "source": "CE10",
+            "target": "PM9"
+        },
+        {
+            "source": "CE12",
+            "target": "PM9"
+        },
+        {
+            "source": "PM1",
+            "target": "PM9"
+        },
+        {
+            "source": "PM2",
+            "target": "PM8"
+        },
+        {
+            "source": "CE5",
+            "target": "PM8"
+        },
+        {
+            "source": "CE12",
+            "target": "PM8"
+        },
+        {
+            "source": "CE7",
+            "target": "PM8"
+        },
+        {
+            "source": "PM3",
+            "target": "CE13"
+        },
+        {
+            "source": "CE11",
+            "target": "CE13"
+        },
+        {
+            "source": "CE12",
+            "target": "CE13"
+        },
+        {
+            "source": "PM4",
+            "target": "CE14"
+        },
+        {
+            "source": "CE4",
+            "target": "PM5"
+        },
+        {
+            "source": "CE5",
+            "target": "PM5"
+        },
+        {
+            "source": "CE4",
+            "target": "CE8"
+        },
+        {
+            "source": "CE9",
+            "target": "PM6"
+        },
+        {
+            "source": "PM5",
+            "target": "PM6"
+        },
+        {
+            "source": "CE4",
+            "target": "PM7"
+        },
+        {
+            "source": "CE6",
+            "target": "PM7"
+        },
+        {
+            "source": "CE8",
+            "target": "PM14"
+        },
+        {
+            "source": "PM8",
+            "target": "PM14"
+        },
+        {
+            "source": "CE13",
+            "target": "PM14"
+        },
+        {
+            "source": "CE14",
+            "target": "PM14"
+        },
+        {
+            "source": "PM9",
+            "target": "PM14"
+        },
+        {
+            "source": "CE8",
+            "target": "PM15"
+        },
+        {
+            "source": "PM8",
+            "target": "PM15"
+        },
+        {
+            "source": "CE13",
+            "target": "PM15"
+        },
+        {
+            "source": "CE14",
+            "target": "PM15"
+        },
+        {
+            "source": "PM9",
+            "target": "PM15"
+        },
+        {
+            "source": "CE9",
+            "target": "PM10"
+        },
+        {
+            "source": "PM5",
+            "target": "PM11"
+        },
+        {
+            "source": "CE14",
+            "target": "PM11"
+        },
+        {
+            "source": "CE6",
+            "target": "PM12"
+        },
+        {
+            "source": "CE9",
+            "target": "PM12"
+        },
+        {
+            "source": "CE9",
+            "target": "PM13"
+        },
+        {
+            "source": "CE10",
+            "target": "PM13"
+        },
+        {
+            "source": "PM7",
+            "target": "PM13"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

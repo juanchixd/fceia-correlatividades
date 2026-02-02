@@ -1,0 +1,273 @@
+{
+    "carrera": "Tecnicatura Universitaria en IA",
+    "materias": [
+        {
+            "id": "IA1.1",
+            "label": "Lógica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "IA1.2",
+            "label": "Matemática",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "IA1.3",
+            "label": "Entorno de Programación I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "IA1.4",
+            "label": "Programación I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "IA1.5",
+            "label": "Inglés Técnico",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "IA2.1",
+            "label": "Cálculo",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "IA2.2",
+            "label": "Programación II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "IA2.3",
+            "label": "Bases de Datos I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "IA2.4",
+            "label": "Introducción a Inteligencia Artificial",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "IA2.5",
+            "label": "Algebra",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "IA2.6",
+            "label": "Práctica Social Educativa",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "IA3.1",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "IA3.2",
+            "label": "Programación III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "IA3.3",
+            "label": "Base de Datos II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "IA3.4",
+            "label": "Fundamentos de Ciencia de Datos",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "IA3.5",
+            "label": "Redes de Datos",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "IA4.1",
+            "label": "Aprendizaje Automático I",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "IA4.2",
+            "label": "Procesamiento del Lenguaje Natural",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "IA4.3",
+            "label": "Minería de Datos",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "IA4.4",
+            "label": "Procesamiento de Imágenes I",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "IA4.5",
+            "label": "Integración al Medio Profesional",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "IA4.6",
+            "label": "Práctica Social Educativa II",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "IA5.1",
+            "label": "Aprendizaje Automático II",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "IA5.2",
+            "label": "Proc. de Imágenes y Visión por Comp.",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "IA5.3",
+            "label": "Práctica Profesional",
+            "cuatrimestre": 5,
+            "requeridas": 14
+        },
+        {
+            "id": "IA5.4",
+            "label": "Espacio Electivo",
+            "cuatrimestre": 5,
+            "esSlot": true,
+            "grupo": "electivas"
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "IA1.1",
+            "target": "IA2.1"
+        },
+        {
+            "source": "IA1.2",
+            "target": "IA2.1"
+        },
+        {
+            "source": "IA1.4",
+            "target": "IA2.2"
+        },
+        {
+            "source": "IA1.3",
+            "target": "IA2.3"
+        },
+        {
+            "source": "IA1.1",
+            "target": "IA2.4"
+        },
+        {
+            "source": "IA1.1",
+            "target": "IA2.5"
+        },
+        {
+            "source": "IA1.2",
+            "target": "IA2.5"
+        },
+        {
+            "source": "IA2.1",
+            "target": "IA3.1"
+        },
+        {
+            "source": "IA2.5",
+            "target": "IA3.1"
+        },
+        {
+            "source": "IA2.2",
+            "target": "IA3.2"
+        },
+        {
+            "source": "IA2.4",
+            "target": "IA3.2"
+        },
+        {
+            "source": "IA2.3",
+            "target": "IA3.3"
+        },
+        {
+            "source": "IA2.1",
+            "target": "IA3.4"
+        },
+        {
+            "source": "IA2.2",
+            "target": "IA3.4"
+        },
+        {
+            "source": "IA1.4",
+            "target": "IA3.5"
+        },
+        {
+            "source": "IA3.1",
+            "target": "IA4.1"
+        },
+        {
+            "source": "IA2.2",
+            "target": "IA4.1"
+        },
+        {
+            "source": "IA3.1",
+            "target": "IA4.2"
+        },
+        {
+            "source": "IA2.2",
+            "target": "IA4.2"
+        },
+        {
+            "source": "IA3.4",
+            "target": "IA4.3"
+        },
+        {
+            "source": "IA2.2",
+            "target": "IA4.4"
+        },
+        {
+            "source": "IA2.4",
+            "target": "IA4.5"
+        },
+        {
+            "source": "IA2.6",
+            "target": "IA4.6"
+        },
+        {
+            "source": "IA4.1",
+            "target": "IA5.1"
+        },
+        {
+            "source": "IA4.4",
+            "target": "IA5.2"
+        }
+    ],
+    "opciones": {
+        "electivas": [
+            {
+                "id": "IA_E1",
+                "label": "Modelado y Simulación",
+                "requeridas": 14
+            },
+            {
+                "id": "IA_E2",
+                "label": "Procesamiento de Voz",
+                "requeridas": 14
+            },
+            {
+                "id": "IA_E7",
+                "label": "Investigación Científica",
+                "requeridas": 10
+            },
+            {
+                "id": "IA_E16",
+                "label": "Emprendedorismo",
+                "previas": [
+                    "IA2.4"
+                ]
+            },
+            {
+                "id": "IA_E18",
+                "label": "Metodologías Ágiles",
+                "previas": [
+                    "IA2.4"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,370 @@
+{
+    "carrera": "Profesorado en Física",
+    "materias": [
+        {
+            "id": "PF1.1",
+            "label": "Algebra y Geometría Analítica I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "PF1.2",
+            "label": "Análisis Matemático I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "PF1.3",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "PF1.4",
+            "label": "Taller de Práctica de la Enseñanza I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "PF1.5",
+            "label": "Algebra y Geometría Analítica II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "PF1.6",
+            "label": "Análisis Matemático II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "PF1.7",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "PF2.1",
+            "label": "Pedagogía",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "PF2.2",
+            "label": "Historia Socio-Política del Sist. Educativo",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "PF2.3",
+            "label": "Análisis Matemático III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "PF2.4",
+            "label": "Física II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "PF2.5",
+            "label": "Física Matemática",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "PF2.6",
+            "label": "Física III",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "PF2.7",
+            "label": "Taller de Práctica de la Enseñanza II",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "PF3.1",
+            "label": "Curriculum y Didáctica",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PF3.2",
+            "label": "Teorías del Sujeto y del Aprendizaje",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PF3.3",
+            "label": "Física IV",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PF3.4",
+            "label": "Mecánica Clásica y Relatividad",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PF3.5",
+            "label": "Taller de Informática",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PF3.6",
+            "label": "Examen de Suficiencia de Inglés",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "PF3.7",
+            "label": "Química",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PF3.8",
+            "label": "Didáctica de la Física",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PF3.9",
+            "label": "Taller de Práctica de la Enseñanza III",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "PF4.1",
+            "label": "Residencia",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PF4.2",
+            "label": "Naturaleza de la Física",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PF4.3",
+            "label": "Taller de Física Ambiental",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PF4.4",
+            "label": "Física Experimental",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "PF4.5",
+            "label": "Taller de Astrofísica",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "PF4.6",
+            "label": "Física Cuántica y Estructura de la Materia",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "PF4.7",
+            "label": "Electiva",
+            "cuatrimestre": 8,
+            "esSlot": true,
+            "grupo": "electivas"
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "PF1.1",
+            "target": "PF1.5"
+        },
+        {
+            "source": "PF1.2",
+            "target": "PF1.6"
+        },
+        {
+            "source": "PF1.2",
+            "target": "PF1.7"
+        },
+        {
+            "source": "PF1.3",
+            "target": "PF1.7"
+        },
+        {
+            "source": "PF1.3",
+            "target": "PF2.1"
+        },
+        {
+            "source": "PF1.4",
+            "target": "PF2.1"
+        },
+        {
+            "source": "PF1.3",
+            "target": "PF2.2"
+        },
+        {
+            "source": "PF1.4",
+            "target": "PF2.2"
+        },
+        {
+            "source": "PF1.1",
+            "target": "PF2.3"
+        },
+        {
+            "source": "PF1.6",
+            "target": "PF2.3"
+        },
+        {
+            "source": "PF1.6",
+            "target": "PF2.4"
+        },
+        {
+            "source": "PF1.7",
+            "target": "PF2.4"
+        },
+        {
+            "source": "PF1.5",
+            "target": "PF2.5"
+        },
+        {
+            "source": "PF1.7",
+            "target": "PF2.5"
+        },
+        {
+            "source": "PF2.3",
+            "target": "PF2.5"
+        },
+        {
+            "source": "PF1.5",
+            "target": "PF2.6"
+        },
+        {
+            "source": "PF1.7",
+            "target": "PF2.6"
+        },
+        {
+            "source": "PF2.3",
+            "target": "PF2.6"
+        },
+        {
+            "source": "PF1.4",
+            "target": "PF2.7"
+        },
+        {
+            "source": "PF1.7",
+            "target": "PF2.7"
+        },
+        {
+            "source": "PF2.4",
+            "target": "PF2.7"
+        },
+        {
+            "source": "PF2.1",
+            "target": "PF3.1"
+        },
+        {
+            "source": "PF2.2",
+            "target": "PF3.1"
+        },
+        {
+            "source": "PF2.4",
+            "target": "PF3.1"
+        },
+        {
+            "source": "PF2.4",
+            "target": "PF3.2"
+        },
+        {
+            "source": "PF2.4",
+            "target": "PF3.3"
+        },
+        {
+            "source": "PF2.6",
+            "target": "PF3.3"
+        },
+        {
+            "source": "PF2.5",
+            "target": "PF3.4"
+        },
+        {
+            "source": "PF2.6",
+            "target": "PF3.4"
+        },
+        {
+            "source": "PF2.5",
+            "target": "PF3.5"
+        },
+        {
+            "source": "PF2.6",
+            "target": "PF3.5"
+        },
+        {
+            "source": "PF2.6",
+            "target": "PF3.7"
+        },
+        {
+            "source": "PF2.1",
+            "target": "PF3.8"
+        },
+        {
+            "source": "PF2.6",
+            "target": "PF3.8"
+        },
+        {
+            "source": "PF2.7",
+            "target": "PF3.9"
+        },
+        {
+            "source": "PF3.3",
+            "target": "PF3.9"
+        },
+        {
+            "source": "PF3.1",
+            "target": "PF4.1"
+        },
+        {
+            "source": "PF3.2",
+            "target": "PF4.1"
+        },
+        {
+            "source": "PF3.4",
+            "target": "PF4.1"
+        },
+        {
+            "source": "PF3.8",
+            "target": "PF4.1"
+        },
+        {
+            "source": "PF3.9",
+            "target": "PF4.1"
+        },
+        {
+            "source": "PF3.3",
+            "target": "PF4.2"
+        },
+        {
+            "source": "PF3.4",
+            "target": "PF4.2"
+        },
+        {
+            "source": "PF3.7",
+            "target": "PF4.2"
+        },
+        {
+            "source": "PF3.3",
+            "target": "PF4.3"
+        },
+        {
+            "source": "PF3.7",
+            "target": "PF4.3"
+        },
+        {
+            "source": "PF3.3",
+            "target": "PF4.4"
+        },
+        {
+            "source": "PF3.5",
+            "target": "PF4.4"
+        },
+        {
+            "source": "PF3.4",
+            "target": "PF4.5"
+        },
+        {
+            "source": "PF3.5",
+            "target": "PF4.5"
+        },
+        {
+            "source": "PF3.3",
+            "target": "PF4.6"
+        },
+        {
+            "source": "PF3.4",
+            "target": "PF4.6"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

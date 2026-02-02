@@ -1,0 +1,358 @@
+{
+    "carrera": "Licenciatura en Ciencias de la Computación",
+    "materias": [
+        {
+            "id": "R-111",
+            "label": "Algebra y Geometría Analítica I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "R-112",
+            "label": "Análisis Matemático I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "R-113",
+            "label": "Programación I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "R-121",
+            "label": "Algebra y Geometría Analítica II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "R-122",
+            "label": "Análisis Matemático II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "R-123",
+            "label": "Programación II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "R-211",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "R-212",
+            "label": "Estructura de Datos y Algoritmos I",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "R-213",
+            "label": "Lenguajes Formales y Computabilidad",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "R-221",
+            "label": "Complementos de Matemática I",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "R-222",
+            "label": "Arquitectura del Computador",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "R-223",
+            "label": "Lógica",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "R-224",
+            "label": "Métodos Numéricos",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "R-311",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "R-312",
+            "label": "Estructuras de Datos y Algoritmos II",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "R-313",
+            "label": "Análisis de Lenguajes de Programación",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "R-314",
+            "label": "Examen de Suficiencia de Inglés",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "R-321",
+            "label": "Modelos Físicos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "R-322",
+            "label": "Sistemas Operativos I",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "R-323",
+            "label": "Comunicaciones",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "R-324",
+            "label": "Teoría de Bases de Datos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "R-411",
+            "label": "Ingeniería de Software I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "R-412",
+            "label": "Sistemas Operativos II",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "R-413",
+            "label": "Introducción a la Inteligencia Artificial",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "R-421",
+            "label": "Ingeniería del Software II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "R-422",
+            "label": "Compiladores",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "R-423",
+            "label": "Complementos de Matemática II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "R-511",
+            "label": "Seguridad Informática",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "OPT1",
+            "label": "Optativa I",
+            "cuatrimestre": 9,
+            "esSlot": true,
+            "grupo": "optativas"
+        },
+        {
+            "id": "R-513",
+            "label": "Práctica Profesional",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "R-514",
+            "label": "Taller de Tesina",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "OPT2",
+            "label": "Optativa II",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "optativas"
+        },
+        {
+            "id": "OPT3",
+            "label": "Optativa III",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "optativas"
+        },
+        {
+            "id": "R-523",
+            "label": "Tesina",
+            "cuatrimestre": 10
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "R-111",
+            "target": "R-121"
+        },
+        {
+            "source": "R-112",
+            "target": "R-122"
+        },
+        {
+            "source": "R-113",
+            "target": "R-123"
+        },
+        {
+            "source": "R-121",
+            "target": "R-211"
+        },
+        {
+            "source": "R-123",
+            "target": "R-212"
+        },
+        {
+            "source": "R-123",
+            "target": "R-213"
+        },
+        {
+            "source": "R-211",
+            "target": "R-221"
+        },
+        {
+            "source": "R-212",
+            "target": "R-221"
+        },
+        {
+            "source": "R-212",
+            "target": "R-222"
+        },
+        {
+            "source": "R-123",
+            "target": "R-223"
+        },
+        {
+            "source": "R-122",
+            "target": "R-224"
+        },
+        {
+            "source": "R-211",
+            "target": "R-224"
+        },
+        {
+            "source": "R-122",
+            "target": "R-311"
+        },
+        {
+            "source": "R-212",
+            "target": "R-312"
+        },
+        {
+            "source": "R-221",
+            "target": "R-312"
+        },
+        {
+            "source": "R-223",
+            "target": "R-313"
+        },
+        {
+            "source": "R-311",
+            "target": "R-321"
+        },
+        {
+            "source": "R-223",
+            "target": "R-322"
+        },
+        {
+            "source": "R-312",
+            "target": "R-322"
+        },
+        {
+            "source": "R-313",
+            "target": "R-322"
+        },
+        {
+            "source": "R-222",
+            "target": "R-323"
+        },
+        {
+            "source": "R-312",
+            "target": "R-324"
+        },
+        {
+            "source": "R-223",
+            "target": "R-324"
+        },
+        {
+            "source": "R-223",
+            "target": "R-411"
+        },
+        {
+            "source": "R-312",
+            "target": "R-411"
+        },
+        {
+            "source": "R-314",
+            "target": "R-411"
+        },
+        {
+            "source": "R-222",
+            "target": "R-412"
+        },
+        {
+            "source": "R-314",
+            "target": "R-412"
+        },
+        {
+            "source": "R-322",
+            "target": "R-412"
+        },
+        {
+            "source": "R-223",
+            "target": "R-413"
+        },
+        {
+            "source": "R-312",
+            "target": "R-413"
+        },
+        {
+            "source": "R-314",
+            "target": "R-413"
+        },
+        {
+            "source": "R-324",
+            "target": "R-413"
+        },
+        {
+            "source": "R-411",
+            "target": "R-421"
+        },
+        {
+            "source": "R-213",
+            "target": "R-422"
+        },
+        {
+            "source": "R-312",
+            "target": "R-422"
+        },
+        {
+            "source": "R-313",
+            "target": "R-422"
+        },
+        {
+            "source": "R-314",
+            "target": "R-422"
+        },
+        {
+            "source": "R-122",
+            "target": "R-423"
+        },
+        {
+            "source": "R-211",
+            "target": "R-423"
+        },
+        {
+            "source": "R-223",
+            "target": "R-423"
+        },
+        {
+            "source": "R-314",
+            "target": "R-423"
+        },
+        {
+            "source": "R-411",
+            "target": "R-511"
+        }
+    ],
+    "opciones": {
+        "optativas": []
+    }
+}

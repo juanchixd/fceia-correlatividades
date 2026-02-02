@@ -4,194 +4,232 @@
         {
             "id": "A1",
             "label": "Introducción a la Ingeniería Electrónica",
-            "cuatrimestre": 1
+            "cuatrimestre": 1,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Primero/A1_Introduccion_a_la_Ingenieria_Electronica.pdf"
         },
         {
             "id": "FB1",
             "label": "Introducción a la Física",
-            "cuatrimestre": 1
+            "cuatrimestre": 1,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Primero/FB1_Introduccion_a_la_Fisica.pdf"
         },
         {
             "id": "FB2",
             "label": "Cálculo I",
-            "cuatrimestre": 1
+            "cuatrimestre": 1,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Primero/FB2_Calculo_I.pdf"
         },
         {
             "id": "FB3",
             "label": "Algebra y Geometría Analítica",
-            "cuatrimestre": 1
+            "cuatrimestre": 1,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Primero/FB3_Algebra_y_Geometria_Analitica.pdf"
         },
         {
             "id": "FB7",
             "label": "Informática",
-            "cuatrimestre": 1
+            "cuatrimestre": 1,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Primero/FB7_Informatica.pdf"
         },
         {
             "id": "FB4",
             "label": "Representación Gráfica",
-            "cuatrimestre": 2
+            "cuatrimestre": 2,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Segundo/FB4_Representacion_Grafica.pdf"
         },
         {
             "id": "FB5",
             "label": "Cálculo II",
-            "cuatrimestre": 2
+            "cuatrimestre": 2,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Segundo/FB5_Calculo_II.pdf"
         },
         {
             "id": "FB6",
             "label": "Física I",
-            "cuatrimestre": 2
+            "cuatrimestre": 2,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Segundo/FB6_Fisica_I.pdf"
         },
         {
             "id": "FI3",
             "label": "Legislación y Org. de Empresas",
-            "cuatrimestre": 2
+            "cuatrimestre": 2,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Segundo/FI3_Legislacion_y_Organizacion_de_Empresas.pdf"
         },
         {
             "id": "FI4",
             "label": "Gestión de Calidad y Operaciones",
-            "cuatrimestre": 2
+            "cuatrimestre": 2,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Segundo/FI4_Gestion_de_la_Calidad_y_de_las_Operaciones.pdf"
         },
         {
             "id": "FB8",
             "label": "Cálculo III",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Tercero/FB8_Calculo_III.pdf"
         },
         {
             "id": "FB9",
             "label": "Algebra Lineal",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Tercero/FB9_Algebra_Lineal.pdf"
         },
         {
             "id": "FB10",
             "label": "Física III",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Tercero/FB10_Fisica_III.pdf"
         },
         {
             "id": "FB18",
             "label": "Cálculo IV",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Tercero/FB18_Calculo_IV.pdf"
         },
         {
             "id": "FI1",
             "label": "Inglés I",
             "cuatrimestre": 3,
-            "requeridas": 5
+            "requeridas": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Tercero/FI1_Ingles_I.pdf"
         },
         {
             "id": "FB11",
             "label": "Química",
             "cuatrimestre": 4,
-            "requeridas": 5
+            "requeridas": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Cuarto/FB11_Quimica.pdf"
         },
         {
             "id": "A2",
             "label": "Teoría de Circuitos",
-            "cuatrimestre": 4
+            "cuatrimestre": 4,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Cuarto/A2_Teoria_de_Circuitos.pdf"
         },
         {
             "id": "FB14",
             "label": "Física II",
-            "cuatrimestre": 4
+            "cuatrimestre": 4,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Cuarto/FB14_Fisica_II.pdf"
         },
         {
             "id": "FB20",
             "label": "Matemática Aplicada",
-            "cuatrimestre": 4
+            "cuatrimestre": 4,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Cuarto/FB20_Matematica_Aplicada.pdf"
         },
         {
             "id": "FI2",
             "label": "Inglés II",
-            "cuatrimestre": 4
+            "cuatrimestre": 4,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Cuarto/FI2_Ingles_II.pdf"
         },
         {
             "id": "A3",
             "label": "Sistemas y Señales I",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Quinto/A3_Sistemas_y_Seniales_I.pdf"
         },
         {
             "id": "A4",
             "label": "Lab. de Electromagnetismo",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Quinto/A4_Laboratorio_de_Electromagnetismo.pdf"
         },
         {
             "id": "A5",
             "label": "Informática Aplicada",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Quinto/A5_Informatica_Aplicada.pdf"
         },
         {
             "id": "A6",
             "label": "Física de Dispositivos Electrónicos",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Quinto/A6_Fisica_de_los_Dispositivos_Electronicos.pdf"
         },
         {
             "id": "FB12",
             "label": "Probabilidad y Estadística",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Quinto/FB12_Probabilidad_y_Estadistica.pdf"
         },
         {
             "id": "A7",
             "label": "Sistemas y Señales II",
-            "cuatrimestre": 6
+            "cuatrimestre": 6,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Sexto/A7_Sistemas_y_Seniales_II.pdf"
         },
         {
             "id": "A8",
             "label": "Dispositivos y Circuitos I",
-            "cuatrimestre": 6
+            "cuatrimestre": 6,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Sexto/A8_Dispositivos_y_Circuitos_Electronicos_I.pdf"
         },
         {
             "id": "A9",
             "label": "Máquinas Eléctricas",
-            "cuatrimestre": 6
+            "cuatrimestre": 6,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Sexto/A9_Maquinas_Electricas.pdf"
         },
         {
             "id": "A10",
             "label": "Sistemas Digitales I",
-            "cuatrimestre": 6
+            "cuatrimestre": 6,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Sexto/A10_Sistemas_Digitales_I.pdf"
         },
         {
             "id": "A11",
             "label": "Gestión de Proyectos",
-            "cuatrimestre": 6
+            "cuatrimestre": 6,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Sexto/A11_Gestion_de_Proyectos_de_Ingenieria.pdf"
         },
         {
             "id": "A12",
             "label": "Dinámica de Sistemas Físicos",
-            "cuatrimestre": 7
+            "cuatrimestre": 7,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Septimo/A12_Dinamica_de_los_Sistemas_Fisicos.pdf"
         },
         {
             "id": "A13",
             "label": "Fund. de Comunicaciones",
-            "cuatrimestre": 7
+            "cuatrimestre": 7,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Septimo/A13_Fundamentos_de_las_Comunicaciones_Electricas.pdf"
         },
         {
             "id": "A14",
             "label": "Sistemas Digitales II",
-            "cuatrimestre": 7
+            "cuatrimestre": 7,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Septimo/A14_Sistemas_Digitales_II.pdf"
         },
         {
             "id": "A15",
             "label": "Dispositivos y Circuitos II",
-            "cuatrimestre": 7
+            "cuatrimestre": 7,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Septimo/A15_Dispositivos_y_Circuitos_Electronicos_II.pdf"
         },
         {
             "id": "A16",
             "label": "Lab. de Mediciones",
-            "cuatrimestre": 7
+            "cuatrimestre": 7,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Septimo/A16_Laboratorio_de_Mediciones.pdf"
         },
         {
             "id": "A17",
             "label": "Teoría de Control",
-            "cuatrimestre": 8
+            "cuatrimestre": 8,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Octavo/A17_Teoria_de_Control.pdf"
         },
         {
             "id": "A18",
             "label": "Mediciones Electrónicas",
-            "cuatrimestre": 8
+            "cuatrimestre": 8,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Octavo/A18_Mediciones_Electronicas.pdf"
         },
         {
             "id": "A19",
             "label": "Dispositivos y Circuitos III",
-            "cuatrimestre": 8
+            "cuatrimestre": 8,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Octavo/A19_Dispositivos_y_Circuitos_Electronicos_III.pdf"
         },
         {
             "id": "OPT1",
@@ -205,17 +243,20 @@
             "id": "A20",
             "label": "Proyecto I",
             "cuatrimestre": 9,
-            "requeridas": 29
+            "requeridas": 29,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Noveno/A20_Proyecto_I.pdf"
         },
         {
             "id": "F17",
             "label": "Economía y Costos",
-            "cuatrimestre": 9
+            "cuatrimestre": 9,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Noveno/FI7_Economia_y_Costos.pdf"
         },
         {
             "id": "F15",
             "label": "Higiene, Seguridad y Gestión",
-            "cuatrimestre": 9
+            "cuatrimestre": 9,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Noveno/FI5_Higiene_y_Seguridad_y_Gestion%20Ambiental.pdf"
         },
         {
             "id": "OPT2",
@@ -236,17 +277,20 @@
         {
             "id": "A21",
             "label": "Proyecto II",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Decimo/A21_Proyecto_II.pdf"
         },
         {
             "id": "F18",
             "label": "Emprendedorismo y Proyectos",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Decimo/FI8_Emprendedorismo_y_Evaluacion_de_Proyectos_de_Inversion.pdf"
         },
         {
             "id": "F16",
             "label": "Resp. Social y Factor Humano",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Decimo/FI6_Responsabilidad_Social_y_Factor_Humano.pdf"
         },
         {
             "id": "ELE2",
@@ -260,7 +304,8 @@
             "id": "A22",
             "label": "Práctica Profesional (PPS)",
             "cuatrimestre": 10,
-            "requeridas": 37
+            "requeridas": 37,
+            "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Programas/Decimo/A22_Practica_Profesional_Supervisada.pdf"
         }
     ],
     "opciones": {
@@ -271,7 +316,8 @@
                 "rama": "Control",
                 "previas": [
                     "A12"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/ELA2_Control_en_el_Espacio_Estado.pdf"
             },
             {
                 "id": "ELA3",
@@ -279,7 +325,8 @@
                 "rama": "Comunicaciones",
                 "previas": [
                     "A13"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/ELA3_Redes_de_Telecomunicaciones.pdf"
             },
             {
                 "id": "ELA4",
@@ -287,7 +334,8 @@
                 "rama": "Diseño",
                 "previas": [
                     "A15"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/ELA4_Dispositivos_y_Circuitos_Electronicos_IV.pdf"
             },
             {
                 "id": "ELA1",
@@ -295,7 +343,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A14"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/plan_de_estudio_Sistemas_Digitales_III-comprimido-comprimido.pdf"
             }
         ],
         "optativa2": [
@@ -307,7 +356,8 @@
                     "A17",
                     "A19",
                     "A14"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_DyCSM_2018.pdf"
             },
             {
                 "id": "OPT_RED",
@@ -315,13 +365,15 @@
                 "rama": "Comunicaciones",
                 "previas": [
                     "A13"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Redes_Avanzadas_de_Comunicaciones_2018.pdf"
             },
             {
                 "id": "OPT_POT",
                 "label": "Diseño de Convertidores de Potencia",
                 "rama": "Diseño",
-                "previas": []
+                "previas": [],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Disenio_de_Convertidores_Electronicos_de_Potencia_2018.pdf"
             },
             {
                 "id": "OPT_SIS",
@@ -329,7 +381,8 @@
                 "rama": "Diseño",
                 "previas": [
                     "A19"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Disenio_de_Sistemas_Electronicos_2018.pdf"
             },
             {
                 "id": "SEA1",
@@ -337,7 +390,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "ELA1"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Sistemas_Embebidos_Avanzados_2018.pdf"
             },
             {
                 "id": "OPT_DIG4",
@@ -346,7 +400,8 @@
                 "previas": [
                     "A2",
                     "A4"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Programa_Sistemas_Digitales_IV_20181933.pdf"
             }
         ],
         "electiva9": [
@@ -357,7 +412,8 @@
                 "previas": [
                     "A17",
                     "ELA2"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Control_Avanzado_2018.pdf"
             },
             {
                 "id": "ELE_CP",
@@ -365,7 +421,8 @@
                 "rama": "Control",
                 "previas": [
                     "A17"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Control_Predictivo_Aplicado_a_Procesos_Industriales_2018.pdf"
             },
             {
                 "id": "ELE_CI",
@@ -373,7 +430,8 @@
                 "rama": "Comunicaciones",
                 "previas": [
                     "A13"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Comunicaciones_Inalambricas_2018.pdf"
             },
             {
                 "id": "ELE_DCI",
@@ -382,7 +440,8 @@
                 "previas": [
                     "A14",
                     "A15"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Disenio_de_Circuitos_Integrados_2018.pdf"
             },
             {
                 "id": "ELE_AUD",
@@ -390,7 +449,8 @@
                 "rama": "Diseño",
                 "previas": [
                     "ELA4"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Fundamentos_de_Audio_2018.pdf"
             },
             {
                 "id": "ELE_BD",
@@ -398,7 +458,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A5"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Bases_de_Datos_2018.pdf"
             },
             {
                 "id": "ELE_SEN",
@@ -406,7 +467,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A16"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Sensores_y_Transductores_2018.pdf"
             },
             {
                 "id": "ELE_DDA",
@@ -414,7 +476,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A14"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Diseno_Digital_Avanzado_2018.pdf"
             },
             {
                 "id": "ELE_IMP",
@@ -423,7 +486,8 @@
                 "previas": [
                     "A2",
                     "A4"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Diseno_avanzado_de_circuitos_impresos_Sem_9_2019.pdf"
             }
         ],
         "electiva10": [
@@ -433,7 +497,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A14"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Arquitectura_y_Diseno_de_Computadoras_2018.pdf"
             },
             {
                 "id": "ELE_PDS",
@@ -442,7 +507,8 @@
                 "previas": [
                     "A7",
                     "FB12"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/ProDiVoz_2018.pdf"
             },
             {
                 "id": "ELE_IMG",
@@ -450,7 +516,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A7"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Procesamiento_Digital_de_Imagenes_2018.pdf"
             },
             {
                 "id": "ELE_IA",
@@ -458,7 +525,8 @@
                 "rama": "Digitales",
                 "previas": [
                     "A5"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Tecnicas_de_Inteligencia_Artificial_2018.pdf"
             },
             {
                 "id": "ELE_SDI",
@@ -467,7 +535,8 @@
                 "previas": [
                     "A5",
                     "A14"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Sistemas_Digitales_Industriales_2018.pdf"
             },
             {
                 "id": "SEA2",
@@ -476,7 +545,8 @@
                 "previas": [
                     "A5",
                     "SEA1"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Analitico_Electiva_Digital_Sem_10_SEA_2.pdf"
             },
             {
                 "id": "ISIS",
@@ -484,13 +554,15 @@
                 "rama": "Control",
                 "previas": [
                     "A17"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Identificacion_de_Sistemas_2018.pdf"
             },
             {
                 "id": "ELE_DAIC",
                 "label": "Diseño Avanzado de Circuitos Integrados",
                 "rama": "Diseño",
-                "previas": []
+                "previas": [],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Diseno_Avanzado_de_CI_2018.pdf"
             },
             {
                 "id": "ELE_SC",
@@ -498,7 +570,8 @@
                 "rama": "Comunicaciones",
                 "previas": [
                     "A13"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Servicios_de_Telecomunicaciones.pdf"
             },
             {
                 "id": "ELE_CR",
@@ -508,7 +581,8 @@
                     "FB7",
                     "FB12",
                     "A13"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Programa_Confiabilidad_de_Redes.pdf"
             },
             {
                 "id": "ELE_CIND",
@@ -516,7 +590,8 @@
                 "rama": "Comunicaciones",
                 "previas": [
                     "A13"
-                ]
+                ],
+                "link": "https://www.eie.fceia.unr.edu.ar/images/Archivos/Planes_de_Estudio/Comunicaciones_para_la_Industria_2018.pdf"
             }
         ]
     },
@@ -776,6 +851,14 @@
         {
             "source": "FI3",
             "target": "F16"
+        },
+        {
+            "source": "ELE1",
+            "target": "ELE2"
+        },
+        {
+            "source": "OPT1",
+            "target": "OPT2"
         }
     ]
 }

@@ -27,7 +27,7 @@ import LoginModal from "./components/LoginModal";
 import ToastContainer from "./components/Toast";
 import Footer from "./components/Footer";
 
-// --- IMPORT DE DATOS MULTI-CARRERA ---
+// --- IMPORT DE DATOS ---
 import { PLANES, DEFAULT_PLAN } from "./data/index";
 
 const nodeTypes = { materia: MateriaNode, label: LabelNode };
@@ -48,7 +48,6 @@ const processData = (data, userSelections = {}) => {
 
   dagre.layout(dagreGraph);
 
-  // 1. Mapeo inicial
   let materiaNodes = data.materias.map((m) => {
     const nodeWithPosition = dagreGraph.node(m.id);
     let positionX = m.cuatrimestre
@@ -87,7 +86,6 @@ const processData = (data, userSelections = {}) => {
     };
   });
 
-  // 2. Anti-Colisión
   const GAP_VERTICAL = 30;
   const groupsByCuatri = {};
 
@@ -109,7 +107,6 @@ const processData = (data, userSelections = {}) => {
     }
   });
 
-  // 3. Etiquetas
   const totalCuatrimestres = Math.max(
     ...data.materias.map((m) => m.cuatrimestre || 0),
   );
@@ -205,19 +202,63 @@ const getLockedBranch = (selections, planData) => {
 function Flow() {
   const { setCenter, fitView } = useReactFlow();
 
+  // 1. ESTADOS (Con Inicialización Perezosa para arreglar F5)
   const [currentPlanKey, setCurrentPlanKey] = useState(DEFAULT_PLAN);
-  const [studentRecords, setStudentRecords] = useState({});
-  const [studentGrades, setStudentGrades] = useState({});
-  const [nodeSelections, setNodeSelections] = useState({});
+
+  // Flag para evitar guardar datos vacíos al inicio
+  const [isDataLoaded, setIsDataLoaded] = useState(false);
+
+  // Inicializar leyendo localStorage directamente
+  const [studentRecords, setStudentRecords] = useState(() => {
+    try {
+      const saved = localStorage.getItem(`records-${DEFAULT_PLAN}`);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const [studentGrades, setStudentGrades] = useState(() => {
+    try {
+      const saved = localStorage.getItem(`grades-${DEFAULT_PLAN}`);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const [nodeSelections, setNodeSelections] = useState(() => {
+    try {
+      const saved = localStorage.getItem(`selections-${DEFAULT_PLAN}`);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  // Marcar como cargado una vez que se montó el componente
+  useEffect(() => {
+    setIsDataLoaded(true);
+  }, []);
 
   const initialData = useMemo(
     () => processData(PLANES[currentPlanKey].data, nodeSelections),
     [currentPlanKey, nodeSelections],
   );
 
+  // Recuperar credenciales al F5
+  const [userCredentials, setUserCredentials] = useState(null);
+  useEffect(() => {
+    const savedCreds = localStorage.getItem("user_credentials");
+    if (savedCreds) {
+      setUserCredentials(JSON.parse(savedCreds));
+    }
+  }, []);
+
   const [nodes, setNodes, onNodesChange] = useNodesState(initialData.nodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialData.edges);
 
+  // Efecto para cambios de plan o selecciones
   useEffect(() => {
     const newData = processData(PLANES[currentPlanKey].data, nodeSelections);
     setNodes(newData.nodes);
@@ -227,26 +268,34 @@ function Flow() {
   const [selectedNodeId, setSelectedNodeId] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
-  const [userCredentials, setUserCredentials] = useState(null);
   const [isSaving, setIsSaving] = useState(false);
   const [toasts, setToasts] = useState([]);
 
-  // --- PERSISTENCIA ---
+  // --- CARGA DE DATOS (Al cambiar de plan) ---
   useEffect(() => {
+    // Si cambiamos de plan, intentamos cargar sus datos
+    // Nota: Como ya inicializamos en el useState, esto es más para cambios posteriores
     try {
       const rec = localStorage.getItem(`records-${currentPlanKey}`);
       const gra = localStorage.getItem(`grades-${currentPlanKey}`);
       const sel = localStorage.getItem(`selections-${currentPlanKey}`);
-      setStudentRecords(rec ? JSON.parse(rec) : {});
-      setStudentGrades(gra ? JSON.parse(gra) : {});
-      setNodeSelections(sel ? JSON.parse(sel) : {});
+
+      if (rec || gra || sel) {
+        setStudentRecords(rec ? JSON.parse(rec) : {});
+        setStudentGrades(gra ? JSON.parse(gra) : {});
+        setNodeSelections(sel ? JSON.parse(sel) : {});
+      }
     } catch (e) {
       console.error("Error loading local storage", e);
     }
   }, [currentPlanKey]);
 
+  // --- GUARDADO AUTOMÁTICO (Blindado) ---
   const saveTimeoutRef = useRef(null);
   useEffect(() => {
+    // PROTECCIÓN: No guardar si aún no hemos terminado de cargar inicial
+    if (!isDataLoaded) return;
+
     localStorage.setItem(
       `records-${currentPlanKey}`,
       JSON.stringify(studentRecords),
@@ -260,12 +309,14 @@ function Flow() {
       JSON.stringify(nodeSelections),
     );
 
+    // Guardado en Nube
     if (userCredentials) {
       if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
       saveTimeoutRef.current = setTimeout(async () => {
         setIsSaving(true);
         try {
           const allData = {};
+          // Recopilamos datos de todos los planes posibles del LS
           Object.keys(PLANES).forEach((planId) => {
             const r = localStorage.getItem(`records-${planId}`);
             const g = localStorage.getItem(`grades-${planId}`);
@@ -300,11 +351,13 @@ function Flow() {
     nodeSelections,
     currentPlanKey,
     userCredentials,
+    isDataLoaded, // Dependencia clave
   ]);
 
   const handleLoginSuccess = (cloudData, credentials) => {
     setUserCredentials(credentials);
-    notify(`¡Hola ${credentials.legajo}! Datos sincronizados.`);
+    localStorage.setItem("user_credentials", JSON.stringify(credentials));
+    notify(`¡Hola ${credentials.legajo}!`);
     if (cloudData) {
       Object.keys(cloudData).forEach((planId) => {
         const { records, grades, selections } = cloudData[planId];
@@ -473,7 +526,7 @@ function Flow() {
     return g.length ? g.reduce((a, b) => a + b, 0) / g.length : 0;
   }, [studentGrades]);
 
-  // --- EFECTO VISUAL (Aquí estaba el bug) ---
+  // --- EFECTO VISUAL ---
   useEffect(() => {
     const connectedSet = getConnectedSet(selectedNodeId, edges);
 
@@ -629,9 +682,14 @@ function Flow() {
           </select>
           <button
             className="card-style control-btn-primary"
-            onClick={() =>
-              userCredentials ? setUserCredentials(null) : setIsLoginOpen(true)
-            }
+            onClick={() => {
+              if (userCredentials) {
+                setUserCredentials(null);
+                localStorage.removeItem("user_credentials");
+              } else {
+                setIsLoginOpen(true);
+              }
+            }}
           >
             {userCredentials ? "👤 Salir" : "Entrar"}
           </button>

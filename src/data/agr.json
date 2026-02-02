@@ -1,0 +1,534 @@
+{
+    "carrera": "Agrimensura",
+    "materias": [
+        {
+            "id": "FB1",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB2",
+            "label": "Cálculo I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB3",
+            "label": "Algebra y Geometría Analítica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB4",
+            "label": "Representación Gráfica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "G1",
+            "label": "Introducción a la Agrimensura",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB5",
+            "label": "Cálculo II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB6",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB7",
+            "label": "Informática",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB8",
+            "label": "Cálculo III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB15",
+            "label": "Física II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB12",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "G2",
+            "label": "Trigonometría y Topografía",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB10",
+            "label": "Física III",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB11",
+            "label": "Química",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "G3",
+            "label": "Introducción a la Agrimensura Legal",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "G4",
+            "label": "Topografía Inicial",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "G5",
+            "label": "Diseño Topocartográfico",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB17",
+            "label": "Ecuaciones Diferenciales",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "G6",
+            "label": "Agrimensura Legal",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "G7",
+            "label": "Topografía Avanzada",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "G8",
+            "label": "Geografía y Geomorfología",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "G9",
+            "label": "Geomática",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "F10",
+            "label": "Inglés",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "G10",
+            "label": "Agrología e Información Rural",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "G11",
+            "label": "Catastro y Derecho Registral",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "G12",
+            "label": "Cálculo de Compensaciones",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "G13",
+            "label": "Geodesia Física",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "G14",
+            "label": "Proyecto Topografía",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "G15",
+            "label": "Fotogrametría",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "G16",
+            "label": "Mensuras",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "G17",
+            "label": "Geodesia Geométrica",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "G18",
+            "label": "Catastro",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "G19",
+            "label": "Elementos de Construcción y Economía",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "G20",
+            "label": "Cartografía",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "G21",
+            "label": "Sistemas de Información Territorial",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "G22",
+            "label": "Fotointerpretación",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "G23",
+            "label": "Valuaciones",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "G24",
+            "label": "Proyecto Mensuras",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "G25",
+            "label": "Ordenamiento Territorial",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "G26",
+            "label": "Teledetección",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "G27",
+            "label": "Estudios y Trazados",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "PPS",
+            "label": "Práctica Profesional Supervisada",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "G29",
+            "label": "Estudios y Trazados Especiales",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "ELE1",
+            "label": "Horas Electivas",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "electivas"
+        },
+        {
+            "id": "G30",
+            "label": "Trabajo Final",
+            "cuatrimestre": 10
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "FB2",
+            "target": "FB5"
+        },
+        {
+            "source": "FB3",
+            "target": "FB5"
+        },
+        {
+            "source": "FB1",
+            "target": "FB6"
+        },
+        {
+            "source": "FB2",
+            "target": "FB6"
+        },
+        {
+            "source": "FB3",
+            "target": "FB9"
+        },
+        {
+            "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB5",
+            "target": "FB15"
+        },
+        {
+            "source": "FB6",
+            "target": "FB15"
+        },
+        {
+            "source": "FB9",
+            "target": "FB12"
+        },
+        {
+            "source": "G1",
+            "target": "G2"
+        },
+        {
+            "source": "FB2",
+            "target": "G2"
+        },
+        {
+            "source": "FB3",
+            "target": "G2"
+        },
+        {
+            "source": "FB5",
+            "target": "FB10"
+        },
+        {
+            "source": "FB6",
+            "target": "FB10"
+        },
+        {
+            "source": "FB15",
+            "target": "FB11"
+        },
+        {
+            "source": "G1",
+            "target": "G3"
+        },
+        {
+            "source": "G2",
+            "target": "G4"
+        },
+        {
+            "source": "FB5",
+            "target": "G4"
+        },
+        {
+            "source": "FB9",
+            "target": "G4"
+        },
+        {
+            "source": "FB4",
+            "target": "G5"
+        },
+        {
+            "source": "FB7",
+            "target": "G5"
+        },
+        {
+            "source": "FB7",
+            "target": "FB17"
+        },
+        {
+            "source": "FB9",
+            "target": "FB17"
+        },
+        {
+            "source": "FB5",
+            "target": "FB17"
+        },
+        {
+            "source": "G3",
+            "target": "G6"
+        },
+        {
+            "source": "G2",
+            "target": "G6"
+        },
+        {
+            "source": "FB15",
+            "target": "G7"
+        },
+        {
+            "source": "FB12",
+            "target": "G7"
+        },
+        {
+            "source": "G4",
+            "target": "G7"
+        },
+        {
+            "source": "FB11",
+            "target": "G8"
+        },
+        {
+            "source": "G2",
+            "target": "G8"
+        },
+        {
+            "source": "G5",
+            "target": "G8"
+        },
+        {
+            "source": "FB7",
+            "target": "G9"
+        },
+        {
+            "source": "G4",
+            "target": "G9"
+        },
+        {
+            "source": "G4",
+            "target": "G10"
+        },
+        {
+            "source": "G8",
+            "target": "G10"
+        },
+        {
+            "source": "G6",
+            "target": "G11"
+        },
+        {
+            "source": "G9",
+            "target": "G11"
+        },
+        {
+            "source": "FB8",
+            "target": "G12"
+        },
+        {
+            "source": "FB12",
+            "target": "G12"
+        },
+        {
+            "source": "FB10",
+            "target": "G13"
+        },
+        {
+            "source": "G4",
+            "target": "G13"
+        },
+        {
+            "source": "FB10",
+            "target": "G14"
+        },
+        {
+            "source": "G7",
+            "target": "G14"
+        },
+        {
+            "source": "FB17",
+            "target": "G15"
+        },
+        {
+            "source": "G7",
+            "target": "G15"
+        },
+        {
+            "source": "G6",
+            "target": "G16"
+        },
+        {
+            "source": "G7",
+            "target": "G16"
+        },
+        {
+            "source": "G13",
+            "target": "G17"
+        },
+        {
+            "source": "G14",
+            "target": "G17"
+        },
+        {
+            "source": "G12",
+            "target": "G18"
+        },
+        {
+            "source": "F10",
+            "target": "G18"
+        },
+        {
+            "source": "G11",
+            "target": "G18"
+        },
+        {
+            "source": "G3",
+            "target": "G19"
+        },
+        {
+            "source": "G13",
+            "target": "G20"
+        },
+        {
+            "source": "G14",
+            "target": "G20"
+        },
+        {
+            "source": "G15",
+            "target": "G20"
+        },
+        {
+            "source": "G9",
+            "target": "G21"
+        },
+        {
+            "source": "G15",
+            "target": "G21"
+        },
+        {
+            "source": "G10",
+            "target": "G22"
+        },
+        {
+            "source": "G9",
+            "target": "G22"
+        },
+        {
+            "source": "G11",
+            "target": "G23"
+        },
+        {
+            "source": "G10",
+            "target": "G23"
+        },
+        {
+            "source": "G19",
+            "target": "G23"
+        },
+        {
+            "source": "G11",
+            "target": "G24"
+        },
+        {
+            "source": "G16",
+            "target": "G24"
+        },
+        {
+            "source": "G18",
+            "target": "G25"
+        },
+        {
+            "source": "G24",
+            "target": "G25"
+        },
+        {
+            "source": "G12",
+            "target": "G26"
+        },
+        {
+            "source": "G22",
+            "target": "G26"
+        },
+        {
+            "source": "F10",
+            "target": "G26"
+        },
+        {
+            "source": "G17",
+            "target": "G27"
+        },
+        {
+            "source": "G27",
+            "target": "G29"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

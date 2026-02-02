@@ -1,0 +1,472 @@
+{
+    "carrera": "Ingeniería Eléctrica",
+    "materias": [
+        {
+            "id": "FB1",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB2",
+            "label": "Cálculo I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB3",
+            "label": "Algebra y Geometría Analítica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB7",
+            "label": "Informática",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "E1",
+            "label": "Introducción a la Ingeniería Eléctrica",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB4",
+            "label": "Representación Gráfica",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB5",
+            "label": "Cálculo II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB6",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "F10",
+            "label": "Inglés",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FI3",
+            "label": "Legislación y Organización de Empresas",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB8",
+            "label": "Cálculo III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB10",
+            "label": "Física III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "E2",
+            "label": "Mecánica Aplicada",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "F14",
+            "label": "Gestión de la Calidad",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB11",
+            "label": "Química",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB14",
+            "label": "Física II",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB18",
+            "label": "Cálculo IV",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "E3",
+            "label": "Análisis de Circuitos",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "F15",
+            "label": "Higiene y Seguridad",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "E4",
+            "label": "Electromagnetismo Aplicado",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "E5",
+            "label": "Materiales Eléctricos",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "FB12",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "FB20",
+            "label": "Matemática Aplicada",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "F17",
+            "label": "Economía y Costos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "E6",
+            "label": "Metrología Eléctrica",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "E7",
+            "label": "Electrónica",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "E8",
+            "label": "Análisis de Señales y Sistemas",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "E9",
+            "label": "Máquinas Eléctricas I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "F16",
+            "label": "Responsabilidad Social",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "E10",
+            "label": "Automatización I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "E11",
+            "label": "Dinámica de los Sistemas",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "E12",
+            "label": "Generación de la Energía Eléctrica",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "E13",
+            "label": "Distribución de la Energía Eléctrica",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "F18",
+            "label": "Emprendedorismo",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "E14",
+            "label": "Máquinas Eléctricas II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "E15",
+            "label": "Automatización II",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "E16",
+            "label": "Instalaciones Eléctricas I",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "E17",
+            "label": "Transmisión de Energía Eléctrica",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "ELE1",
+            "label": "Electiva I",
+            "cuatrimestre": 9,
+            "esSlot": true,
+            "grupo": "electivas"
+        },
+        {
+            "id": "E19",
+            "label": "Proyecto de Ingeniería",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "E20",
+            "label": "Instalaciones Eléctricas II",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "E21",
+            "label": "Accionamientos Eléctricos",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "E22",
+            "label": "Sistemas de Potencia",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "ELE2",
+            "label": "Electiva II",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "electivas"
+        },
+        {
+            "id": "PPS",
+            "label": "Práctica Profesional Supervisada",
+            "cuatrimestre": 10
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "FB2",
+            "target": "FB5"
+        },
+        {
+            "source": "FB3",
+            "target": "FB5"
+        },
+        {
+            "source": "FB1",
+            "target": "FB6"
+        },
+        {
+            "source": "FB2",
+            "target": "FB6"
+        },
+        {
+            "source": "E1",
+            "target": "FI3"
+        },
+        {
+            "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB2",
+            "target": "FB9"
+        },
+        {
+            "source": "FB3",
+            "target": "FB9"
+        },
+        {
+            "source": "FB5",
+            "target": "FB10"
+        },
+        {
+            "source": "FB6",
+            "target": "FB10"
+        },
+        {
+            "source": "FB5",
+            "target": "E2"
+        },
+        {
+            "source": "FB6",
+            "target": "E2"
+        },
+        {
+            "source": "E1",
+            "target": "F14"
+        },
+        {
+            "source": "FB5",
+            "target": "FB14"
+        },
+        {
+            "source": "FB6",
+            "target": "FB14"
+        },
+        {
+            "source": "FB5",
+            "target": "FB18"
+        },
+        {
+            "source": "FB8",
+            "target": "E3"
+        },
+        {
+            "source": "FB10",
+            "target": "E3"
+        },
+        {
+            "source": "FI3",
+            "target": "F15"
+        },
+        {
+            "source": "E3",
+            "target": "E4"
+        },
+        {
+            "source": "FB8",
+            "target": "E5"
+        },
+        {
+            "source": "FB11",
+            "target": "E5"
+        },
+        {
+            "source": "FB14",
+            "target": "E5"
+        },
+        {
+            "source": "FB8",
+            "target": "FB12"
+        },
+        {
+            "source": "FB18",
+            "target": "FB12"
+        },
+        {
+            "source": "FB4",
+            "target": "FB20"
+        },
+        {
+            "source": "FB8",
+            "target": "FB20"
+        },
+        {
+            "source": "FB9",
+            "target": "FB20"
+        },
+        {
+            "source": "FB18",
+            "target": "FB20"
+        },
+        {
+            "source": "F14",
+            "target": "F17"
+        },
+        {
+            "source": "E3",
+            "target": "E6"
+        },
+        {
+            "source": "E3",
+            "target": "E7"
+        },
+        {
+            "source": "E5",
+            "target": "E7"
+        },
+        {
+            "source": "FB20",
+            "target": "E8"
+        },
+        {
+            "source": "E3",
+            "target": "E8"
+        },
+        {
+            "source": "E4",
+            "target": "E9"
+        },
+        {
+            "source": "E5",
+            "target": "E9"
+        },
+        {
+            "source": "FI3",
+            "target": "F16"
+        },
+        {
+            "source": "FB9",
+            "target": "E10"
+        },
+        {
+            "source": "E7",
+            "target": "E10"
+        },
+        {
+            "source": "E8",
+            "target": "E11"
+        },
+        {
+            "source": "E9",
+            "target": "E11"
+        },
+        {
+            "source": "E9",
+            "target": "E12"
+        },
+        {
+            "source": "FB12",
+            "target": "E13"
+        },
+        {
+            "source": "E6",
+            "target": "E13"
+        },
+        {
+            "source": "E8",
+            "target": "E13"
+        },
+        {
+            "source": "F17",
+            "target": "F18"
+        },
+        {
+            "source": "E11",
+            "target": "E14"
+        },
+        {
+            "source": "E10",
+            "target": "E15"
+        },
+        {
+            "source": "E11",
+            "target": "E15"
+        },
+        {
+            "source": "E13",
+            "target": "E16"
+        },
+        {
+            "source": "E12",
+            "target": "E17"
+        },
+        {
+            "source": "E13",
+            "target": "E17"
+        },
+        {
+            "source": "E16",
+            "target": "E20"
+        },
+        {
+            "source": "E14",
+            "target": "E21"
+        },
+        {
+            "source": "E14",
+            "target": "E22"
+        },
+        {
+            "source": "E17",
+            "target": "E22"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

@@ -1,0 +1,523 @@
+{
+    "carrera": "Ingeniería Civil",
+    "materias": [
+        {
+            "id": "FB1",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB2",
+            "label": "Cálculo I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB3",
+            "label": "Algebra y Geometría Analítica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB4",
+            "label": "Representación Gráfica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "C1",
+            "label": "Introducción a la Ingeniería Civil",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB5",
+            "label": "Cálculo II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB6",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB7",
+            "label": "Informática",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB8",
+            "label": "Cálculo III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB11",
+            "label": "Química",
+            "cuatrimestre": 3,
+            "requeridas": 5
+        },
+        {
+            "id": "FB14",
+            "label": "Física II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "C2",
+            "label": "Estática Aplicada",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "C3",
+            "label": "Construcciones Civiles",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB10",
+            "label": "Física III",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB12",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB17",
+            "label": "Ecuaciones Dif. y Métodos Numéricos",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "C4",
+            "label": "Topografía y Geodesia",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "C5",
+            "label": "Resistencia de Materiales",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "F19",
+            "label": "Inglés",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "C6",
+            "label": "Mecánica de los Fluidos",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "C7",
+            "label": "Materiales",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "C8",
+            "label": "Mecánica de las Estructuras I",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "C9",
+            "label": "Diseño Arquitectónico",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "C10",
+            "label": "Economía y Organización de Obras",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "C11",
+            "label": "Hidráulica de Canales Abiertos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "C12",
+            "label": "Geología y Geotecnia",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "C13",
+            "label": "Mecánica de las Estructuras II",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "C14",
+            "label": "Planeamiento y Urbanismo",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "C15",
+            "label": "Instalaciones",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "C16",
+            "label": "Hidrología",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "C17",
+            "label": "Estructuras de Hormigón I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "C18",
+            "label": "Estructuras Metálicas I",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "C19",
+            "label": "Transporte I",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "C20",
+            "label": "Obras Hidráulicas",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "C21",
+            "label": "Estructuras Metálicas II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "C22",
+            "label": "Transporte II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "C23",
+            "label": "Ingeniería Geotécnica",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "C24",
+            "label": "Proyecto I",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "C25",
+            "label": "Estructuras de Hormigón II",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "C26",
+            "label": "Transporte III",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "C27",
+            "label": "Ingeniería Sanitaria y Ambiental",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "C29",
+            "label": "Proyecto II",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "OPT1",
+            "label": "Optativa I",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "optativas",
+            "requeridas": 30
+        },
+        {
+            "id": "C30",
+            "label": "Equipos y Tecnología",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "C31",
+            "label": "Ingeniería Legal y Práctica Profesional",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "C32",
+            "label": "Proyecto III",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "PPS",
+            "label": "Práctica Profesional Supervisada",
+            "cuatrimestre": 10,
+            "requeridas": 40
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "FB2",
+            "target": "FB5"
+        },
+        {
+            "source": "FB3",
+            "target": "FB5"
+        },
+        {
+            "source": "FB1",
+            "target": "FB6"
+        },
+        {
+            "source": "FB2",
+            "target": "FB6"
+        },
+        {
+            "source": "FB3",
+            "target": "FB9"
+        },
+        {
+            "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB5",
+            "target": "FB14"
+        },
+        {
+            "source": "FB6",
+            "target": "FB14"
+        },
+        {
+            "source": "FB5",
+            "target": "C2"
+        },
+        {
+            "source": "FB6",
+            "target": "C2"
+        },
+        {
+            "source": "FB9",
+            "target": "C2"
+        },
+        {
+            "source": "FB4",
+            "target": "C3"
+        },
+        {
+            "source": "C1",
+            "target": "C3"
+        },
+        {
+            "source": "FB5",
+            "target": "FB10"
+        },
+        {
+            "source": "FB6",
+            "target": "FB10"
+        },
+        {
+            "source": "FB8",
+            "target": "FB12"
+        },
+        {
+            "source": "FB5",
+            "target": "FB17"
+        },
+        {
+            "source": "FB7",
+            "target": "FB17"
+        },
+        {
+            "source": "FB9",
+            "target": "FB17"
+        },
+        {
+            "source": "FB4",
+            "target": "C4"
+        },
+        {
+            "source": "FB9",
+            "target": "C4"
+        },
+        {
+            "source": "FB8",
+            "target": "C5"
+        },
+        {
+            "source": "C2",
+            "target": "C5"
+        },
+        {
+            "source": "C3",
+            "target": "C5"
+        },
+        {
+            "source": "FB8",
+            "target": "C6"
+        },
+        {
+            "source": "FB14",
+            "target": "C6"
+        },
+        {
+            "source": "C2",
+            "target": "C6"
+        },
+        {
+            "source": "FB11",
+            "target": "C7"
+        },
+        {
+            "source": "FB12",
+            "target": "C7"
+        },
+        {
+            "source": "C5",
+            "target": "C7"
+        },
+        {
+            "source": "FB17",
+            "target": "C8"
+        },
+        {
+            "source": "C5",
+            "target": "C8"
+        },
+        {
+            "source": "C3",
+            "target": "C9"
+        },
+        {
+            "source": "C5",
+            "target": "C9"
+        },
+        {
+            "source": "C3",
+            "target": "C10"
+        },
+        {
+            "source": "C4",
+            "target": "C11"
+        },
+        {
+            "source": "C6",
+            "target": "C11"
+        },
+        {
+            "source": "C4",
+            "target": "C13"
+        },
+        {
+            "source": "C6",
+            "target": "C13"
+        },
+        {
+            "source": "C7",
+            "target": "C13"
+        },
+        {
+            "source": "C8",
+            "target": "C14"
+        },
+        {
+            "source": "C4",
+            "target": "C15"
+        },
+        {
+            "source": "C9",
+            "target": "C15"
+        },
+        {
+            "source": "FB14",
+            "target": "C17"
+        },
+        {
+            "source": "FB10",
+            "target": "C17"
+        },
+        {
+            "source": "C9",
+            "target": "C17"
+        },
+        {
+            "source": "C11",
+            "target": "C18"
+        },
+        {
+            "source": "C12",
+            "target": "C18"
+        },
+        {
+            "source": "C7",
+            "target": "C19"
+        },
+        {
+            "source": "C13",
+            "target": "C19"
+        },
+        {
+            "source": "C7",
+            "target": "C20"
+        },
+        {
+            "source": "C13",
+            "target": "C20"
+        },
+        {
+            "source": "FI9",
+            "target": "C21"
+        },
+        {
+            "source": "FB12",
+            "target": "C21"
+        },
+        {
+            "source": "C14",
+            "target": "C21"
+        },
+        {
+            "source": "C10",
+            "target": "C22"
+        },
+        {
+            "source": "C14",
+            "target": "C22"
+        },
+        {
+            "source": "C15",
+            "target": "C22"
+        },
+        {
+            "source": "C16",
+            "target": "C23"
+        },
+        {
+            "source": "FI9",
+            "target": "C24"
+        },
+        {
+            "source": "C18",
+            "target": "C24"
+        },
+        {
+            "source": "C16",
+            "target": "C25"
+        },
+        {
+            "source": "C19",
+            "target": "C25"
+        },
+        {
+            "source": "C12",
+            "target": "C27"
+        },
+        {
+            "source": "C13",
+            "target": "C27"
+        },
+        {
+            "source": "C16",
+            "target": "C29"
+        },
+        {
+            "source": "C20",
+            "target": "C29"
+        }
+    ],
+    "opciones": {
+        "optativas": []
+    }
+}

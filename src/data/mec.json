@@ -1,0 +1,542 @@
+{
+    "carrera": "Ingeniería Mecánica",
+    "materias": [
+        {
+            "id": "FB1",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB2",
+            "label": "Cálculo I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB3",
+            "label": "Algebra y Geometría Analítica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB4",
+            "label": "Representación Gráfica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "M1",
+            "label": "Introducción a la Ingeniería Mecánica",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB5",
+            "label": "Cálculo II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB6",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB7",
+            "label": "Informática",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "M2",
+            "label": "Estática",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB8",
+            "label": "Cálculo III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB14",
+            "label": "Física II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "M3",
+            "label": "Mecánica de los Materiales",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB18",
+            "label": "Cálculo IV",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "F10",
+            "label": "Inglés",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB10",
+            "label": "Física III",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB11",
+            "label": "Química",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "M4",
+            "label": "Mecánica de los Medios Continuos",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "M5",
+            "label": "Termodinámica",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "M6",
+            "label": "Análisis de Mecanismos y Máquinas",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "M7",
+            "label": "Ciencia de los Materiales",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "M8",
+            "label": "Mecánica Racional",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "FB19",
+            "label": "Métodos Numéricos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "M9",
+            "label": "Mecánica de los Fluidos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "M10",
+            "label": "Dinámica de Sistemas Físicos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "M11",
+            "label": "Elaboración y Conformado de Metales",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "M12",
+            "label": "Mecánica Aplicada",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "FB12",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "M13",
+            "label": "Metrología y Calidad",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "M14",
+            "label": "Electrotecnología y Máquinas Eléctricas",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "M15",
+            "label": "Transformación y Unión de Materiales",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "M16",
+            "label": "Tecnología de la Fabricación",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "M17",
+            "label": "Dibujo Mecánico I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "M18",
+            "label": "Transferencia de Masa y Energía",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "M19",
+            "label": "Hidráulica y Neumática",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "M20",
+            "label": "Comportamiento y Ensayo de Materiales",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "F13",
+            "label": "Legislación",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "F17",
+            "label": "Economía y Costos",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "M21",
+            "label": "Dibujo Mecánico II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "M22",
+            "label": "Máquinas Térmicas",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "M23",
+            "label": "Instalaciones Eléctricas y Control",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "M24",
+            "label": "Equipos Agroindustriales",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "F14",
+            "label": "Gestión de Calidad",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "F15",
+            "label": "Higiene y Seguridad",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "M25",
+            "label": "Síntesis de Mecanismos y Máquinas",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "F16",
+            "label": "Responsabilidad Social",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "F18",
+            "label": "Evaluación de Proyectos",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "M26",
+            "label": "Proyecto Final",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "PPS",
+            "label": "Práctica Profesional Supervisada",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "ELE1",
+            "label": "Electiva I",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "electivas"
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "FB2",
+            "target": "FB5"
+        },
+        {
+            "source": "FB3",
+            "target": "FB5"
+        },
+        {
+            "source": "FB1",
+            "target": "FB6"
+        },
+        {
+            "source": "FB2",
+            "target": "FB6"
+        },
+        {
+            "source": "M1",
+            "target": "M2"
+        },
+        {
+            "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB5",
+            "target": "FB9"
+        },
+        {
+            "source": "FB5",
+            "target": "FB14"
+        },
+        {
+            "source": "FB6",
+            "target": "FB14"
+        },
+        {
+            "source": "FB5",
+            "target": "M3"
+        },
+        {
+            "source": "M2",
+            "target": "M3"
+        },
+        {
+            "source": "FB5",
+            "target": "FB18"
+        },
+        {
+            "source": "FB5",
+            "target": "FB10"
+        },
+        {
+            "source": "FB6",
+            "target": "FB10"
+        },
+        {
+            "source": "M3",
+            "target": "M4"
+        },
+        {
+            "source": "FB14",
+            "target": "M4"
+        },
+        {
+            "source": "FB9",
+            "target": "M4"
+        },
+        {
+            "source": "FB8",
+            "target": "M4"
+        },
+        {
+            "source": "FB11",
+            "target": "M5"
+        },
+        {
+            "source": "M4",
+            "target": "M5"
+        },
+        {
+            "source": "FB4",
+            "target": "M6"
+        },
+        {
+            "source": "M4",
+            "target": "M6"
+        },
+        {
+            "source": "FB11",
+            "target": "M7"
+        },
+        {
+            "source": "FB14",
+            "target": "M7"
+        },
+        {
+            "source": "FB6",
+            "target": "M8"
+        },
+        {
+            "source": "FB18",
+            "target": "M8"
+        },
+        {
+            "source": "M4",
+            "target": "M8"
+        },
+        {
+            "source": "FB18",
+            "target": "FB19"
+        },
+        {
+            "source": "FB9",
+            "target": "FB19"
+        },
+        {
+            "source": "FB7",
+            "target": "FB19"
+        },
+        {
+            "source": "M5",
+            "target": "M9"
+        },
+        {
+            "source": "FB19",
+            "target": "M9"
+        },
+        {
+            "source": "M8",
+            "target": "M10"
+        },
+        {
+            "source": "FB10",
+            "target": "M10"
+        },
+        {
+            "source": "FB19",
+            "target": "M10"
+        },
+        {
+            "source": "M7",
+            "target": "M11"
+        },
+        {
+            "source": "M5",
+            "target": "M11"
+        },
+        {
+            "source": "M6",
+            "target": "M12"
+        },
+        {
+            "source": "M8",
+            "target": "M12"
+        },
+        {
+            "source": "FB19",
+            "target": "M12"
+        },
+        {
+            "source": "FB8",
+            "target": "FB12"
+        },
+        {
+            "source": "FB18",
+            "target": "FB12"
+        },
+        {
+            "source": "M6",
+            "target": "M13"
+        },
+        {
+            "source": "FB12",
+            "target": "M13"
+        },
+        {
+            "source": "M10",
+            "target": "M14"
+        },
+        {
+            "source": "M11",
+            "target": "M15"
+        },
+        {
+            "source": "M12",
+            "target": "M15"
+        },
+        {
+            "source": "M11",
+            "target": "M16"
+        },
+        {
+            "source": "M6",
+            "target": "M16"
+        },
+        {
+            "source": "FB12",
+            "target": "M16"
+        },
+        {
+            "source": "M6",
+            "target": "M17"
+        },
+        {
+            "source": "M9",
+            "target": "M18"
+        },
+        {
+            "source": "M14",
+            "target": "M18"
+        },
+        {
+            "source": "M12",
+            "target": "M18"
+        },
+        {
+            "source": "M15",
+            "target": "M19"
+        },
+        {
+            "source": "M13",
+            "target": "M19"
+        },
+        {
+            "source": "M17",
+            "target": "M21"
+        },
+        {
+            "source": "M16",
+            "target": "M21"
+        },
+        {
+            "source": "M13",
+            "target": "M21"
+        },
+        {
+            "source": "M18",
+            "target": "M22"
+        },
+        {
+            "source": "M20",
+            "target": "M22"
+        },
+        {
+            "source": "M19",
+            "target": "M23"
+        },
+        {
+            "source": "M16",
+            "target": "M23"
+        },
+        {
+            "source": "M19",
+            "target": "M24"
+        },
+        {
+            "source": "M15",
+            "target": "M24"
+        },
+        {
+            "source": "M12",
+            "target": "M24"
+        },
+        {
+            "source": "M19",
+            "target": "M25"
+        },
+        {
+            "source": "M18",
+            "target": "M25"
+        },
+        {
+            "source": "M20",
+            "target": "M25"
+        },
+        {
+            "source": "M21",
+            "target": "M25"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

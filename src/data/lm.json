@@ -1,0 +1,275 @@
+{
+    "carrera": "Licenciatura en Matemática",
+    "materias": [
+        {
+            "id": "LM1",
+            "label": "Taller de Matemática I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE1",
+            "label": "Algebra y Geometría Analítica I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE2",
+            "label": "Análisis Matemático I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE3",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE4",
+            "label": "Algebra y Geometría Analítica II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "CE5",
+            "label": "Análisis Matemático II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "LM2",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "LM3",
+            "label": "Taller de Matemática II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "CE6",
+            "label": "Análisis Matemático III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "CE7",
+            "label": "Programación",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "CE8",
+            "label": "Matemática Discreta",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "LM4",
+            "label": "Taller de Matemática III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "LM5",
+            "label": "Ecuaciones Diferenciales I",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "CE9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "CE10",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "LM6",
+            "label": "Análisis Real",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LM7",
+            "label": "Topología General",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LM8",
+            "label": "Geometría Diferencial",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LM9",
+            "label": "Análisis Complejo",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "LM10",
+            "label": "Estructuras Algebraicas I",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "LM11",
+            "label": "Análisis Funcional",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "LM12",
+            "label": "Optimización Lineal",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "LM13",
+            "label": "Análisis Numérico",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "LM14",
+            "label": "Estructuras Algebraicas II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "LM15",
+            "label": "Ecuaciones Diferenciales II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "LM16",
+            "label": "Variedades Diferenciales",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "ELE1",
+            "label": "Horas Electivas",
+            "cuatrimestre": 9,
+            "esSlot": true,
+            "grupo": "electivas"
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "CE1",
+            "target": "CE4"
+        },
+        {
+            "source": "CE2",
+            "target": "CE5"
+        },
+        {
+            "source": "CE2",
+            "target": "LM2"
+        },
+        {
+            "source": "CE3",
+            "target": "LM2"
+        },
+        {
+            "source": "LM1",
+            "target": "LM3"
+        },
+        {
+            "source": "CE4",
+            "target": "CE6"
+        },
+        {
+            "source": "CE5",
+            "target": "CE6"
+        },
+        {
+            "source": "CE4",
+            "target": "CE8"
+        },
+        {
+            "source": "LM3",
+            "target": "LM4"
+        },
+        {
+            "source": "LM2",
+            "target": "LM5"
+        },
+        {
+            "source": "CE6",
+            "target": "LM5"
+        },
+        {
+            "source": "CE4",
+            "target": "CE9"
+        },
+        {
+            "source": "CE6",
+            "target": "CE10"
+        },
+        {
+            "source": "CE6",
+            "target": "LM6"
+        },
+        {
+            "source": "CE9",
+            "target": "LM6"
+        },
+        {
+            "source": "CE6",
+            "target": "LM7"
+        },
+        {
+            "source": "CE6",
+            "target": "LM8"
+        },
+        {
+            "source": "CE9",
+            "target": "LM8"
+        },
+        {
+            "source": "LM7",
+            "target": "LM9"
+        },
+        {
+            "source": "LM4",
+            "target": "LM10"
+        },
+        {
+            "source": "CE9",
+            "target": "LM10"
+        },
+        {
+            "source": "LM6",
+            "target": "LM11"
+        },
+        {
+            "source": "LM7",
+            "target": "LM11"
+        },
+        {
+            "source": "CE8",
+            "target": "LM12"
+        },
+        {
+            "source": "CE9",
+            "target": "LM12"
+        },
+        {
+            "source": "CE7",
+            "target": "LM13"
+        },
+        {
+            "source": "LM5",
+            "target": "LM13"
+        },
+        {
+            "source": "LM6",
+            "target": "LM13"
+        },
+        {
+            "source": "LM10",
+            "target": "LM14"
+        },
+        {
+            "source": "LM5",
+            "target": "LM15"
+        },
+        {
+            "source": "LM7",
+            "target": "LM16"
+        },
+        {
+            "source": "LM8",
+            "target": "LM16"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

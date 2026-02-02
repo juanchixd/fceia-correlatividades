@@ -1,0 +1,521 @@
+{
+    "carrera": "Ingeniería Industrial",
+    "materias": [
+        {
+            "id": "FB1",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB2",
+            "label": "Cálculo I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB3",
+            "label": "Algebra y Geometría Analítica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB4",
+            "label": "Representación Gráfica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "I1",
+            "label": "Introducción a la Ingeniería Industrial",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB5",
+            "label": "Cálculo II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB6",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB7",
+            "label": "Informática",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "I2",
+            "label": "Organizaciones",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "I3",
+            "label": "Industrias",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB8",
+            "label": "Cálculo III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB14",
+            "label": "Física II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB16",
+            "label": "Informática Aplicada",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB18",
+            "label": "Cálculo IV",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB21",
+            "label": "Química Industrial",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB10",
+            "label": "Física III",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "I4",
+            "label": "Estática y Resistencia de Materiales",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "I5",
+            "label": "Economía",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "F19",
+            "label": "Inglés",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "I6",
+            "label": "Termodinámica y Máquinas Térmicas",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "I7",
+            "label": "Electrotecnia y Máquinas Eléctricas",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "I8",
+            "label": "Tecnología de los Materiales",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "I9",
+            "label": "Instalaciones Industriales",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "I10",
+            "label": "Mecánica de los Fluidos",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "FB22",
+            "label": "Probabilidad y Estadística A",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "I11",
+            "label": "Sistemas de Información",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "I12",
+            "label": "Automatización Industrial",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "I13",
+            "label": "Procesos de Producción I",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "I14",
+            "label": "Introducción a la Optimización",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "I15",
+            "label": "Decisiones Estadísticas y Control de Calidad",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "I16",
+            "label": "Costos y Control de Gestión",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "I17",
+            "label": "Ambiente Sustentable, Higiene y Seguridad",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "I18",
+            "label": "Procesos de Producción II",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "I19",
+            "label": "Legislación",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "I20",
+            "label": "Comercialización",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "I21",
+            "label": "Investigación Operativa I",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "I28",
+            "label": "Sistemas de Producción",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "PPS",
+            "label": "Práctica Profesional Supervisada",
+            "cuatrimestre": 8,
+            "requeridas": 28
+        },
+        {
+            "id": "I24",
+            "label": "Relaciones del Trabajo",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "I25",
+            "label": "Investigación Operativa II",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "I26",
+            "label": "Simulación de Sistemas",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "I27",
+            "label": "Estudio del Trabajo",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "I22",
+            "label": "Gestión de la Calidad",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "ELE1",
+            "label": "Electiva I",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "electivas"
+        },
+        {
+            "id": "I30",
+            "label": "Planificación y Control de la Producción",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "I31",
+            "label": "Suministros",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "I32",
+            "label": "Finanzas y Evaluación de Proyectos",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "PROY",
+            "label": "Proyecto de Ingeniería",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "ELE2",
+            "label": "Electiva II",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "electivas"
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "FB2",
+            "target": "FB5"
+        },
+        {
+            "source": "FB3",
+            "target": "FB5"
+        },
+        {
+            "source": "FB1",
+            "target": "FB6"
+        },
+        {
+            "source": "FB2",
+            "target": "FB6"
+        },
+        {
+            "source": "I1",
+            "target": "I3"
+        },
+        {
+            "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB2",
+            "target": "FB9"
+        },
+        {
+            "source": "FB3",
+            "target": "FB9"
+        },
+        {
+            "source": "FB5",
+            "target": "FB14"
+        },
+        {
+            "source": "FB6",
+            "target": "FB14"
+        },
+        {
+            "source": "FB7",
+            "target": "FB16"
+        },
+        {
+            "source": "FB5",
+            "target": "FB18"
+        },
+        {
+            "source": "FB5",
+            "target": "FB10"
+        },
+        {
+            "source": "FB6",
+            "target": "FB10"
+        },
+        {
+            "source": "FB4",
+            "target": "I4"
+        },
+        {
+            "source": "FB5",
+            "target": "I4"
+        },
+        {
+            "source": "FB6",
+            "target": "I4"
+        },
+        {
+            "source": "I2",
+            "target": "I5"
+        },
+        {
+            "source": "I3",
+            "target": "I5"
+        },
+        {
+            "source": "FB8",
+            "target": "I6"
+        },
+        {
+            "source": "FB14",
+            "target": "I6"
+        },
+        {
+            "source": "FB8",
+            "target": "I7"
+        },
+        {
+            "source": "FB10",
+            "target": "I7"
+        },
+        {
+            "source": "FB21",
+            "target": "I8"
+        },
+        {
+            "source": "I4",
+            "target": "I9"
+        },
+        {
+            "source": "FB14",
+            "target": "I10"
+        },
+        {
+            "source": "FB8",
+            "target": "FB22"
+        },
+        {
+            "source": "FB18",
+            "target": "FB22"
+        },
+        {
+            "source": "FB16",
+            "target": "I11"
+        },
+        {
+            "source": "I7",
+            "target": "I12"
+        },
+        {
+            "source": "FB21",
+            "target": "I13"
+        },
+        {
+            "source": "I6",
+            "target": "I13"
+        },
+        {
+            "source": "FB8",
+            "target": "I14"
+        },
+        {
+            "source": "FB18",
+            "target": "I14"
+        },
+        {
+            "source": "FB16",
+            "target": "I14"
+        },
+        {
+            "source": "FB22",
+            "target": "I15"
+        },
+        {
+            "source": "I5",
+            "target": "I16"
+        },
+        {
+            "source": "I7",
+            "target": "I17"
+        },
+        {
+            "source": "I13",
+            "target": "I17"
+        },
+        {
+            "source": "I8",
+            "target": "I18"
+        },
+        {
+            "source": "I9",
+            "target": "I18"
+        },
+        {
+            "source": "I2",
+            "target": "I19"
+        },
+        {
+            "source": "I5",
+            "target": "I20"
+        },
+        {
+            "source": "FB22",
+            "target": "I21"
+        },
+        {
+            "source": "I14",
+            "target": "I21"
+        },
+        {
+            "source": "I11",
+            "target": "I28"
+        },
+        {
+            "source": "I12",
+            "target": "I28"
+        },
+        {
+            "source": "I18",
+            "target": "I28"
+        },
+        {
+            "source": "I19",
+            "target": "I24"
+        },
+        {
+            "source": "I15",
+            "target": "I25"
+        },
+        {
+            "source": "I21",
+            "target": "I25"
+        },
+        {
+            "source": "I15",
+            "target": "I26"
+        },
+        {
+            "source": "FB22",
+            "target": "I27"
+        },
+        {
+            "source": "I28",
+            "target": "I27"
+        },
+        {
+            "source": "I13",
+            "target": "I22"
+        },
+        {
+            "source": "I15",
+            "target": "I22"
+        },
+        {
+            "source": "I22",
+            "target": "I30"
+        },
+        {
+            "source": "I25",
+            "target": "I30"
+        },
+        {
+            "source": "I26",
+            "target": "I30"
+        },
+        {
+            "source": "I28",
+            "target": "I30"
+        },
+        {
+            "source": "I16",
+            "target": "I31"
+        },
+        {
+            "source": "I20",
+            "target": "I31"
+        },
+        {
+            "source": "I25",
+            "target": "I31"
+        },
+        {
+            "source": "I16",
+            "target": "I32"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}

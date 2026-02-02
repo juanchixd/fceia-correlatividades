@@ -1,0 +1,352 @@
+{
+    "carrera": "Licenciatura en Física",
+    "materias": [
+        {
+            "id": "LF1",
+            "label": "Introducción a la Ciencia",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE1",
+            "label": "Algebra y Geometría Analítica I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE2",
+            "label": "Análisis Matemático I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE3",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "CE4",
+            "label": "Algebra y Geometría Analítica II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "CE5",
+            "label": "Análisis Matemático II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "LF2",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "CE6",
+            "label": "Análisis Matemático III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "LF3",
+            "label": "Química y Estructura de la Materia",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "LF4",
+            "label": "Física II",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "LF5",
+            "label": "Taller de Física Computacional",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "LF6",
+            "label": "Métodos Matemáticos de la Física I",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "LF7",
+            "label": "Física III",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "LF8",
+            "label": "Física Experimental I",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "LF9",
+            "label": "Mecánica Clásica I",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LF10",
+            "label": "Métodos Matemáticos de la Física II",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LF11",
+            "label": "Electromagnetismo I",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LF12",
+            "label": "Física IV",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "LF13",
+            "label": "Mecánica Clásica II",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "LF14",
+            "label": "Computación Científica",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "LF15",
+            "label": "Electromagnetismo II",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "LF16",
+            "label": "Física Experimental II",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "LF17",
+            "label": "Mecánica Cuántica I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "LF18",
+            "label": "Termodinámica y Fisicoquímica",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "LF19",
+            "label": "Física Experimental III",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "LF20",
+            "label": "Mecánica Cuántica II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "LF21",
+            "label": "Mecánica Estadística",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "LF22",
+            "label": "Física Experimental IV",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "LF23",
+            "label": "Materia Condensada",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "LF24",
+            "label": "Física de los Medios Continuos",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "ELE1",
+            "label": "Electivas",
+            "cuatrimestre": 9,
+            "esSlot": true,
+            "grupo": "electivas"
+        },
+        {
+            "id": "TESINA",
+            "label": "Tesina",
+            "cuatrimestre": 10
+        }
+    ],
+    "correlatividades": [
+        {
+            "source": "CE1",
+            "target": "CE4"
+        },
+        {
+            "source": "CE2",
+            "target": "CE5"
+        },
+        {
+            "source": "CE2",
+            "target": "LF2"
+        },
+        {
+            "source": "CE3",
+            "target": "LF2"
+        },
+        {
+            "source": "CE4",
+            "target": "CE6"
+        },
+        {
+            "source": "CE5",
+            "target": "CE6"
+        },
+        {
+            "source": "CE5",
+            "target": "LF4"
+        },
+        {
+            "source": "LF2",
+            "target": "LF4"
+        },
+        {
+            "source": "CE2",
+            "target": "LF5"
+        },
+        {
+            "source": "LF1",
+            "target": "LF5"
+        },
+        {
+            "source": "CE6",
+            "target": "LF6"
+        },
+        {
+            "source": "CE6",
+            "target": "LF7"
+        },
+        {
+            "source": "LF4",
+            "target": "LF7"
+        },
+        {
+            "source": "LF5",
+            "target": "LF7"
+        },
+        {
+            "source": "LF2",
+            "target": "LF9"
+        },
+        {
+            "source": "LF6",
+            "target": "LF9"
+        },
+        {
+            "source": "LF6",
+            "target": "LF10"
+        },
+        {
+            "source": "LF6",
+            "target": "LF11"
+        },
+        {
+            "source": "LF12",
+            "target": "LF11"
+        },
+        {
+            "source": "LF7",
+            "target": "LF12"
+        },
+        {
+            "source": "LF9",
+            "target": "LF13"
+        },
+        {
+            "source": "LF5",
+            "target": "LF14"
+        },
+        {
+            "source": "LF6",
+            "target": "LF14"
+        },
+        {
+            "source": "LF6",
+            "target": "LF15"
+        },
+        {
+            "source": "LF11",
+            "target": "LF15"
+        },
+        {
+            "source": "LF12",
+            "target": "LF15"
+        },
+        {
+            "source": "LF7",
+            "target": "LF16"
+        },
+        {
+            "source": "LF8",
+            "target": "LF16"
+        },
+        {
+            "source": "LF10",
+            "target": "LF17"
+        },
+        {
+            "source": "LF12",
+            "target": "LF17"
+        },
+        {
+            "source": "LF13",
+            "target": "LF17"
+        },
+        {
+            "source": "LF3",
+            "target": "LF18"
+        },
+        {
+            "source": "LF4",
+            "target": "LF18"
+        },
+        {
+            "source": "LF7",
+            "target": "LF18"
+        },
+        {
+            "source": "LF12",
+            "target": "LF19"
+        },
+        {
+            "source": "LF16",
+            "target": "LF19"
+        },
+        {
+            "source": "LF15",
+            "target": "LF20"
+        },
+        {
+            "source": "LF17",
+            "target": "LF20"
+        },
+        {
+            "source": "LF17",
+            "target": "LF21"
+        },
+        {
+            "source": "LF18",
+            "target": "LF21"
+        },
+        {
+            "source": "LF14",
+            "target": "LF22"
+        },
+        {
+            "source": "LF19",
+            "target": "LF22"
+        },
+        {
+            "source": "LF20",
+            "target": "LF23"
+        },
+        {
+            "source": "LF21",
+            "target": "LF23"
+        },
+        {
+            "source": "LF18",
+            "target": "LF24"
+        }
+    ],
+    "opciones": {
+        "electivas": []
+    }
+}
