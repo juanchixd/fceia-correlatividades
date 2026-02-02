@@ -1,0 +1,781 @@
+{
+    "carrera": "Ingeniería Electrónica",
+    "materias": [
+        {
+            "id": "A1",
+            "label": "Introducción a la Ingeniería Electrónica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB1",
+            "label": "Introducción a la Física",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB2",
+            "label": "Cálculo I",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB3",
+            "label": "Algebra y Geometría Analítica",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB7",
+            "label": "Informática",
+            "cuatrimestre": 1
+        },
+        {
+            "id": "FB4",
+            "label": "Representación Gráfica",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB5",
+            "label": "Cálculo II",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB6",
+            "label": "Física I",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FI3",
+            "label": "Legislación y Org. de Empresas",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FI4",
+            "label": "Gestión de Calidad y Operaciones",
+            "cuatrimestre": 2
+        },
+        {
+            "id": "FB8",
+            "label": "Cálculo III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB9",
+            "label": "Algebra Lineal",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB10",
+            "label": "Física III",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FB18",
+            "label": "Cálculo IV",
+            "cuatrimestre": 3
+        },
+        {
+            "id": "FI1",
+            "label": "Inglés I",
+            "cuatrimestre": 3,
+            "requeridas": 5
+        },
+        {
+            "id": "FB11",
+            "label": "Química",
+            "cuatrimestre": 4,
+            "requeridas": 5
+        },
+        {
+            "id": "A2",
+            "label": "Teoría de Circuitos",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB14",
+            "label": "Física II",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FB20",
+            "label": "Matemática Aplicada",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "FI2",
+            "label": "Inglés II",
+            "cuatrimestre": 4
+        },
+        {
+            "id": "A3",
+            "label": "Sistemas y Señales I",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "A4",
+            "label": "Lab. de Electromagnetismo",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "A5",
+            "label": "Informática Aplicada",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "A6",
+            "label": "Física de Dispositivos Electrónicos",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "FB12",
+            "label": "Probabilidad y Estadística",
+            "cuatrimestre": 5
+        },
+        {
+            "id": "A7",
+            "label": "Sistemas y Señales II",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "A8",
+            "label": "Dispositivos y Circuitos I",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "A9",
+            "label": "Máquinas Eléctricas",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "A10",
+            "label": "Sistemas Digitales I",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "A11",
+            "label": "Gestión de Proyectos",
+            "cuatrimestre": 6
+        },
+        {
+            "id": "A12",
+            "label": "Dinámica de Sistemas Físicos",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "A13",
+            "label": "Fund. de Comunicaciones",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "A14",
+            "label": "Sistemas Digitales II",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "A15",
+            "label": "Dispositivos y Circuitos II",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "A16",
+            "label": "Lab. de Mediciones",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "A17",
+            "label": "Teoría de Control",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "A18",
+            "label": "Mediciones Electrónicas",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "A19",
+            "label": "Dispositivos y Circuitos III",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "OPT1",
+            "label": "Optativa I",
+            "cuatrimestre": 8,
+            "esSlot": true,
+            "grupo": "optativa1",
+            "requeridas": 24
+        },
+        {
+            "id": "A20",
+            "label": "Proyecto I",
+            "cuatrimestre": 9,
+            "requeridas": 29
+        },
+        {
+            "id": "F17",
+            "label": "Economía y Costos",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "F15",
+            "label": "Higiene, Seguridad y Gestión",
+            "cuatrimestre": 9
+        },
+        {
+            "id": "OPT2",
+            "label": "Optativa II",
+            "cuatrimestre": 9,
+            "esSlot": true,
+            "grupo": "optativa2",
+            "requeridas": 24
+        },
+        {
+            "id": "ELE1",
+            "label": "Electiva I",
+            "cuatrimestre": 9,
+            "esSlot": true,
+            "grupo": "electiva9",
+            "requeridas": 33
+        },
+        {
+            "id": "A21",
+            "label": "Proyecto II",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "F18",
+            "label": "Emprendedorismo y Proyectos",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "F16",
+            "label": "Resp. Social y Factor Humano",
+            "cuatrimestre": 10
+        },
+        {
+            "id": "ELE2",
+            "label": "Electiva II",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "electiva10",
+            "requeridas": 33
+        },
+        {
+            "id": "A22",
+            "label": "Práctica Profesional (PPS)",
+            "cuatrimestre": 10,
+            "requeridas": 37
+        }
+    ],
+    "opciones": {
+        "optativa1": [
+            {
+                "id": "ELA2",
+                "label": "Control en el Espacio de Estado",
+                "rama": "Control",
+                "previas": [
+                    "A12"
+                ]
+            },
+            {
+                "id": "ELA3",
+                "label": "Redes de Telecomunicaciones",
+                "rama": "Comunicaciones",
+                "previas": [
+                    "A13"
+                ]
+            },
+            {
+                "id": "ELA4",
+                "label": "Dispositivos y Circuitos IV",
+                "rama": "Diseño",
+                "previas": [
+                    "A15"
+                ]
+            },
+            {
+                "id": "ELA1",
+                "label": "Sistemas Digitales III",
+                "rama": "Digitales",
+                "previas": [
+                    "A14"
+                ]
+            }
+        ],
+        "optativa2": [
+            {
+                "id": "OPT_MEC",
+                "label": "Dinámica y Control de Sist. Mecatrónicos",
+                "rama": "Control",
+                "previas": [
+                    "A17",
+                    "A19",
+                    "A14"
+                ]
+            },
+            {
+                "id": "OPT_RED",
+                "label": "Redes Avanzadas de Telecom.",
+                "rama": "Comunicaciones",
+                "previas": [
+                    "A13"
+                ]
+            },
+            {
+                "id": "OPT_POT",
+                "label": "Diseño de Convertidores de Potencia",
+                "rama": "Diseño",
+                "previas": []
+            },
+            {
+                "id": "OPT_SIS",
+                "label": "Diseño de Sistemas Electrónicos",
+                "rama": "Diseño",
+                "previas": [
+                    "A19"
+                ]
+            },
+            {
+                "id": "SEA1",
+                "label": "Sistemas Embebidos Avanzados",
+                "rama": "Digitales",
+                "previas": [
+                    "ELA1"
+                ]
+            },
+            {
+                "id": "OPT_DIG4",
+                "label": "Sistemas Digitales IV",
+                "rama": "Digitales",
+                "previas": [
+                    "A2",
+                    "A4"
+                ]
+            }
+        ],
+        "electiva9": [
+            {
+                "id": "ELE_CA",
+                "label": "Control Avanzado",
+                "rama": "Control",
+                "previas": [
+                    "A17",
+                    "ELA2"
+                ]
+            },
+            {
+                "id": "ELE_CP",
+                "label": "Control Predictivo Industrial",
+                "rama": "Control",
+                "previas": [
+                    "A17"
+                ]
+            },
+            {
+                "id": "ELE_CI",
+                "label": "Comunicaciones Inalámbricas",
+                "rama": "Comunicaciones",
+                "previas": [
+                    "A13"
+                ]
+            },
+            {
+                "id": "ELE_DCI",
+                "label": "Diseño de Circuitos Integrados",
+                "rama": "Diseño",
+                "previas": [
+                    "A14",
+                    "A15"
+                ]
+            },
+            {
+                "id": "ELE_AUD",
+                "label": "Fundamentos de Audio",
+                "rama": "Diseño",
+                "previas": [
+                    "ELA4"
+                ]
+            },
+            {
+                "id": "ELE_BD",
+                "label": "Bases de Datos",
+                "rama": "Digitales",
+                "previas": [
+                    "A5"
+                ]
+            },
+            {
+                "id": "ELE_SEN",
+                "label": "Sensores y Transductores",
+                "rama": "Digitales",
+                "previas": [
+                    "A16"
+                ]
+            },
+            {
+                "id": "ELE_DDA",
+                "label": "Diseño Digital Avanzado",
+                "rama": "Digitales",
+                "previas": [
+                    "A14"
+                ]
+            },
+            {
+                "id": "ELE_IMP",
+                "label": "Diseño Avanzado de Circuitos Impresos",
+                "rama": "Digitales",
+                "previas": [
+                    "A2",
+                    "A4"
+                ]
+            }
+        ],
+        "electiva10": [
+            {
+                "id": "ELE_ADC",
+                "label": "Arquitectura y Diseño de Comp.",
+                "rama": "Digitales",
+                "previas": [
+                    "A14"
+                ]
+            },
+            {
+                "id": "ELE_PDS",
+                "label": "Procesamiento Digital de Voz",
+                "rama": "Digitales",
+                "previas": [
+                    "A7",
+                    "FB12"
+                ]
+            },
+            {
+                "id": "ELE_IMG",
+                "label": "Procesamiento Digital de Imágenes",
+                "rama": "Digitales",
+                "previas": [
+                    "A7"
+                ]
+            },
+            {
+                "id": "ELE_IA",
+                "label": "Inteligencia Artificial",
+                "rama": "Digitales",
+                "previas": [
+                    "A5"
+                ]
+            },
+            {
+                "id": "ELE_SDI",
+                "label": "Sistemas Digitales Industriales",
+                "rama": "Digitales",
+                "previas": [
+                    "A5",
+                    "A14"
+                ]
+            },
+            {
+                "id": "SEA2",
+                "label": "Sistemas Embebidos Avanzados 2",
+                "rama": "Digitales",
+                "previas": [
+                    "A5",
+                    "SEA1"
+                ]
+            },
+            {
+                "id": "ISIS",
+                "label": "Identificación de Sistemas",
+                "rama": "Control",
+                "previas": [
+                    "A17"
+                ]
+            },
+            {
+                "id": "ELE_DAIC",
+                "label": "Diseño Avanzado de Circuitos Integrados",
+                "rama": "Diseño",
+                "previas": []
+            },
+            {
+                "id": "ELE_SC",
+                "label": "Servicios de Comunicaciones",
+                "rama": "Comunicaciones",
+                "previas": [
+                    "A13"
+                ]
+            },
+            {
+                "id": "ELE_CR",
+                "label": "Confiabilidad de Redes",
+                "rama": "Comunicaciones",
+                "previas": [
+                    "FB7",
+                    "FB12",
+                    "A13"
+                ]
+            },
+            {
+                "id": "ELE_CIND",
+                "label": "Comunicaciones para la Industria",
+                "rama": "Comunicaciones",
+                "previas": [
+                    "A13"
+                ]
+            }
+        ]
+    },
+    "correlatividades": [
+        {
+            "source": "FB2",
+            "target": "FB5"
+        },
+        {
+            "source": "FB3",
+            "target": "FB5"
+        },
+        {
+            "source": "FB1",
+            "target": "FB6"
+        },
+        {
+            "source": "FB2",
+            "target": "FB6"
+        },
+        {
+            "source": "A1",
+            "target": "FI3"
+        },
+        {
+            "source": "A1",
+            "target": "FI4"
+        },
+        {
+            "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB2",
+            "target": "FB9"
+        },
+        {
+            "source": "FB3",
+            "target": "FB9"
+        },
+        {
+            "source": "FB6",
+            "target": "FB10"
+        },
+        {
+            "source": "FB5",
+            "target": "FB10"
+        },
+        {
+            "source": "FB5",
+            "target": "FB18"
+        },
+        {
+            "source": "FB18",
+            "target": "A2"
+        },
+        {
+            "source": "FB10",
+            "target": "A2"
+        },
+        {
+            "source": "FB5",
+            "target": "FB14"
+        },
+        {
+            "source": "FB6",
+            "target": "FB14"
+        },
+        {
+            "source": "FB7",
+            "target": "FB20"
+        },
+        {
+            "source": "FB8",
+            "target": "FB20"
+        },
+        {
+            "source": "FB18",
+            "target": "FB20"
+        },
+        {
+            "source": "FI1",
+            "target": "FI2"
+        },
+        {
+            "source": "A2",
+            "target": "A3"
+        },
+        {
+            "source": "FB20",
+            "target": "A3"
+        },
+        {
+            "source": "FB10",
+            "target": "A4"
+        },
+        {
+            "source": "FB8",
+            "target": "A4"
+        },
+        {
+            "source": "FB7",
+            "target": "A5"
+        },
+        {
+            "source": "FB9",
+            "target": "A5"
+        },
+        {
+            "source": "FB11",
+            "target": "A6"
+        },
+        {
+            "source": "A2",
+            "target": "A6"
+        },
+        {
+            "source": "FB18",
+            "target": "FB12"
+        },
+        {
+            "source": "A3",
+            "target": "A7"
+        },
+        {
+            "source": "FI2",
+            "target": "A7"
+        },
+        {
+            "source": "A6",
+            "target": "A8"
+        },
+        {
+            "source": "A1",
+            "target": "A8"
+        },
+        {
+            "source": "FB4",
+            "target": "A9"
+        },
+        {
+            "source": "A4",
+            "target": "A9"
+        },
+        {
+            "source": "A3",
+            "target": "A10"
+        },
+        {
+            "source": "A5",
+            "target": "A10"
+        },
+        {
+            "source": "FI3",
+            "target": "A11"
+        },
+        {
+            "source": "FI4",
+            "target": "A11"
+        },
+        {
+            "source": "A7",
+            "target": "A12"
+        },
+        {
+            "source": "A9",
+            "target": "A12"
+        },
+        {
+            "source": "FB14",
+            "target": "A12"
+        },
+        {
+            "source": "A7",
+            "target": "A13"
+        },
+        {
+            "source": "FB12",
+            "target": "A13"
+        },
+        {
+            "source": "A10",
+            "target": "A14"
+        },
+        {
+            "source": "A8",
+            "target": "A14"
+        },
+        {
+            "source": "A7",
+            "target": "A15"
+        },
+        {
+            "source": "A8",
+            "target": "A15"
+        },
+        {
+            "source": "FB12",
+            "target": "A16"
+        },
+        {
+            "source": "A8",
+            "target": "A16"
+        },
+        {
+            "source": "A12",
+            "target": "A17"
+        },
+        {
+            "source": "A7",
+            "target": "A17"
+        },
+        {
+            "source": "A14",
+            "target": "A18"
+        },
+        {
+            "source": "A16",
+            "target": "A18"
+        },
+        {
+            "source": "A15",
+            "target": "A18"
+        },
+        {
+            "source": "A15",
+            "target": "A19"
+        },
+        {
+            "source": "A12",
+            "target": "A19"
+        },
+        {
+            "source": "A9",
+            "target": "A19"
+        },
+        {
+            "source": "A11",
+            "target": "A20"
+        },
+        {
+            "source": "FI4",
+            "target": "F17"
+        },
+        {
+            "source": "FI3",
+            "target": "F15"
+        },
+        {
+            "source": "A20",
+            "target": "A21"
+        },
+        {
+            "source": "F17",
+            "target": "F18"
+        },
+        {
+            "source": "FI3",
+            "target": "F16"
+        }
+    ]
+}

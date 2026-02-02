@@ -1,0 +1,3 @@
+GOOGLE_SHEET_ID=tu_id_de_la_hoja
+GOOGLE_SERVICE_ACCOUNT_EMAIL=el_email_del_json
+GOOGLE_PRIVATE_KEY="toda_la_clave_privada_del_json"
