@@ -67,6 +67,12 @@
             "cuatrimestre": 3
         },
         {
+            "id": "G31",
+            "label": "Electivas",
+            "cuatrimestre": 3,
+            "descripcion": "Las correlativas se fijaran en la oferta de actividades curriculares"
+        },
+        {
             "id": "FB10",
             "label": "Física III",
             "cuatrimestre": 4
@@ -117,9 +123,9 @@
             "cuatrimestre": 5
         },
         {
-            "id": "F10",
+            "id": "FI0",
             "label": "Inglés",
-            "cuatrimestre": 6
+            "cuatrimestre": 5
         },
         {
             "id": "G10",
@@ -169,7 +175,7 @@
         {
             "id": "G19",
             "label": "Elementos de Construcción y Economía",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "G20",
@@ -214,7 +220,8 @@
         {
             "id": "PPS",
             "label": "Práctica Profesional Supervisada",
-            "cuatrimestre": 9
+            "cuatrimestre": 9,
+            "requeridas": 37
         },
         {
             "id": "G29",
@@ -222,16 +229,18 @@
             "cuatrimestre": 10
         },
         {
-            "id": "ELE1",
+            "id": "G31",
             "label": "Horas Electivas",
             "cuatrimestre": 10,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "descripcion": "Las correlativas se fijaran en la oferta de actividades curriculares"
         },
         {
             "id": "G30",
             "label": "Trabajo Final",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "requeridas": 37
         }
     ],
     "correlatividades": [
@@ -440,7 +449,7 @@
             "target": "G18"
         },
         {
-            "source": "F10",
+            "source": "FI0",
             "target": "G18"
         },
         {
@@ -516,7 +525,7 @@
             "target": "G26"
         },
         {
-            "source": "F10",
+            "source": "FI0",
             "target": "G26"
         },
         {

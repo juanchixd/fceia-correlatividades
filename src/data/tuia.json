@@ -132,7 +132,8 @@
             "label": "Espacio Electivo",
             "cuatrimestre": 5,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "descripcion": "Segun electivas"
         }
     ],
     "correlatividades": [
@@ -255,6 +256,24 @@
                 "requeridas": 10
             },
             {
+                "id": "IA_E8",
+                "label": "Extensión Universitaria",
+                "requeridas": 8
+            },
+            {
+                "id": "IA_E9",
+                "label": "Vinculación ecnológica",
+                "requeridas": 8
+            },
+            {
+                "id": "IA_E10",
+                "label": "Congresos"
+            },
+            {
+                "id": "IA_E14",
+                "label": "Hackathons"
+            },
+            {
                 "id": "IA_E16",
                 "label": "Emprendedorismo",
                 "previas": [
@@ -262,8 +281,36 @@
                 ]
             },
             {
+                "id": "IA_E17",
+                "label": "Gestión del conocimiento y la innovación ",
+                "previas": [
+                    "IA2.4"
+                ]
+            },
+            {
                 "id": "IA_E18",
                 "label": "Metodologías Ágiles",
+                "previas": [
+                    "IA2.4"
+                ]
+            },
+            {
+                "id": "IA_E19",
+                "label": "Higiene y Seguridad Laboral y Gestión Ambiental",
+                "previas": [
+                    "IA2.4"
+                ]
+            },
+            {
+                "id": "IA_E20",
+                "label": "Sostenibilidad Energética",
+                "previas": [
+                    "IA2.4"
+                ]
+            },
+            {
+                "id": "IA_E21",
+                "label": "Responsabilidad Social y Factor Humano",
                 "previas": [
                     "IA2.4"
                 ]

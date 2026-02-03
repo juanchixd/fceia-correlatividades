@@ -146,12 +146,15 @@
             "label": "Optativa I",
             "cuatrimestre": 9,
             "esSlot": true,
-            "grupo": "optativas"
+            "grupo": "optativas",
+            "descripcion": "Segun optativas",
+            "requeridas": 20
         },
         {
             "id": "R-513",
             "label": "Práctica Profesional",
-            "cuatrimestre": 9
+            "cuatrimestre": 9,
+            "requeridas": 24
         },
         {
             "id": "R-514",
@@ -163,19 +166,24 @@
             "label": "Optativa II",
             "cuatrimestre": 10,
             "esSlot": true,
-            "grupo": "optativas"
+            "grupo": "optativas",
+            "descripcion": "Segun optativas",
+            "requeridas": 20
         },
         {
             "id": "OPT3",
             "label": "Optativa III",
             "cuatrimestre": 10,
             "esSlot": true,
-            "grupo": "optativas"
+            "grupo": "optativas",
+            "descripcion": "Segun optativas",
+            "requeridas": 20
         },
         {
             "id": "R-523",
             "label": "Tesina",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "requeridas": 33
         }
     ],
     "correlatividades": [

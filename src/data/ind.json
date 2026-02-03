@@ -49,7 +49,7 @@
         {
             "id": "I3",
             "label": "Industrias",
-            "cuatrimestre": 3
+            "cuatrimestre": 2
         },
         {
             "id": "FB8",
@@ -174,12 +174,12 @@
         {
             "id": "I19",
             "label": "Legislación",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "I20",
             "label": "Comercialización",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "I21",
@@ -200,7 +200,7 @@
         {
             "id": "I24",
             "label": "Relaciones del Trabajo",
-            "cuatrimestre": 9
+            "cuatrimestre": 8
         },
         {
             "id": "I25",
@@ -225,9 +225,10 @@
         {
             "id": "ELE1",
             "label": "Electiva I",
-            "cuatrimestre": 10,
+            "cuatrimestre": 9,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "requeridas": 28
         },
         {
             "id": "I30",
@@ -254,7 +255,8 @@
             "label": "Electiva II",
             "cuatrimestre": 10,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "requeridas": 28
         }
     ],
     "correlatividades": [
@@ -513,6 +515,10 @@
         {
             "source": "I16",
             "target": "I32"
+        },
+        {
+            "source": "ELE1",
+            "target": "ELE2"
         }
     ],
     "opciones": {

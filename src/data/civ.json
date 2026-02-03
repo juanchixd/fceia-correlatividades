@@ -95,12 +95,12 @@
         {
             "id": "C5",
             "label": "Resistencia de Materiales",
-            "cuatrimestre": 5
+            "cuatrimestre": 4
         },
         {
-            "id": "F19",
+            "id": "FI9",
             "label": "Inglés",
-            "cuatrimestre": 5
+            "cuatrimestre": 4
         },
         {
             "id": "C6",
@@ -120,12 +120,12 @@
         {
             "id": "C9",
             "label": "Diseño Arquitectónico",
-            "cuatrimestre": 6
+            "cuatrimestre": 5
         },
         {
             "id": "C10",
             "label": "Economía y Organización de Obras",
-            "cuatrimestre": 6
+            "cuatrimestre": 5
         },
         {
             "id": "C11",
@@ -145,12 +145,12 @@
         {
             "id": "C14",
             "label": "Planeamiento y Urbanismo",
-            "cuatrimestre": 7
+            "cuatrimestre": 6
         },
         {
             "id": "C15",
             "label": "Instalaciones",
-            "cuatrimestre": 7
+            "cuatrimestre": 6
         },
         {
             "id": "C16",
@@ -165,62 +165,67 @@
         {
             "id": "C18",
             "label": "Estructuras Metálicas I",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "C19",
             "label": "Transporte I",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "C20",
+            "label": "Proyecto I",
+            "cuatrimestre": 7
+        },
+        {
+            "id": "C21",
             "label": "Obras Hidráulicas",
             "cuatrimestre": 8
         },
         {
-            "id": "C21",
+            "id": "C22",
             "label": "Estructuras Metálicas II",
             "cuatrimestre": 8
         },
         {
-            "id": "C22",
+            "id": "C23",
             "label": "Transporte II",
             "cuatrimestre": 8
         },
         {
-            "id": "C23",
-            "label": "Ingeniería Geotécnica",
-            "cuatrimestre": 9
-        },
-        {
             "id": "C24",
-            "label": "Proyecto I",
-            "cuatrimestre": 9
+            "label": "Ingeniería Geotécnica",
+            "cuatrimestre": 8
         },
         {
             "id": "C25",
+            "label": "Proyecto II",
+            "cuatrimestre": 8
+        },
+        {
+            "id": "C26",
             "label": "Estructuras de Hormigón II",
             "cuatrimestre": 9
         },
         {
-            "id": "C26",
+            "id": "C27",
             "label": "Transporte III",
             "cuatrimestre": 9
         },
         {
-            "id": "C27",
+            "id": "C28",
             "label": "Ingeniería Sanitaria y Ambiental",
             "cuatrimestre": 9
         },
         {
             "id": "C29",
-            "label": "Proyecto II",
-            "cuatrimestre": 10
+            "label": "Proyecto III",
+            "cuatrimestre": 9
         },
         {
             "id": "OPT1",
             "label": "Optativa I",
-            "cuatrimestre": 10,
+            "cuatrimestre": 9,
             "esSlot": true,
             "grupo": "optativas",
             "requeridas": 30
@@ -237,14 +242,30 @@
         },
         {
             "id": "C32",
-            "label": "Proyecto III",
+            "label": "Proyecto IV",
             "cuatrimestre": 10
         },
         {
-            "id": "PPS",
+            "id": "C33",
             "label": "Práctica Profesional Supervisada",
             "cuatrimestre": 10,
             "requeridas": 40
+        },
+        {
+            "id": "C34",
+            "label": "Optativa II",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "optativas",
+            "requeridas": 30
+        },
+        {
+            "id": "C35",
+            "label": "Electiva",
+            "cuatrimestre": 10,
+            "esSlot": true,
+            "grupo": "optativas",
+            "requeridas": 30
         }
     ],
     "correlatividades": [
@@ -398,86 +419,98 @@
         },
         {
             "source": "C4",
-            "target": "C13"
+            "target": "C12"
         },
         {
             "source": "C6",
-            "target": "C13"
+            "target": "C12"
         },
         {
             "source": "C7",
-            "target": "C13"
+            "target": "C12"
         },
         {
             "source": "C8",
-            "target": "C14"
+            "target": "C13"
         },
         {
             "source": "C4",
-            "target": "C15"
+            "target": "C14"
         },
         {
             "source": "C9",
-            "target": "C15"
+            "target": "C14"
         },
         {
             "source": "FB14",
-            "target": "C17"
+            "target": "C15"
         },
         {
             "source": "FB10",
-            "target": "C17"
+            "target": "C15"
         },
         {
             "source": "C9",
-            "target": "C17"
+            "target": "C15"
         },
         {
             "source": "C11",
-            "target": "C18"
+            "target": "C16"
         },
         {
             "source": "C12",
+            "target": "C16"
+        },
+        {
+            "source": "C7",
+            "target": "C17"
+        },
+        {
+            "source": "C13",
+            "target": "C17"
+        },
+        {
+            "source": "C7",
             "target": "C18"
         },
         {
-            "source": "C7",
-            "target": "C19"
-        },
-        {
             "source": "C13",
-            "target": "C19"
-        },
-        {
-            "source": "C7",
-            "target": "C20"
-        },
-        {
-            "source": "C13",
-            "target": "C20"
+            "target": "C18"
         },
         {
             "source": "FI9",
-            "target": "C21"
+            "target": "C19"
         },
         {
             "source": "FB12",
-            "target": "C21"
+            "target": "C19"
         },
         {
             "source": "C14",
-            "target": "C21"
+            "target": "C19"
         },
         {
             "source": "C10",
-            "target": "C22"
+            "target": "C20"
         },
         {
             "source": "C14",
-            "target": "C22"
+            "target": "C20"
         },
         {
             "source": "C15",
+            "target": "C20"
+        },
+        {
+            "source": "C16",
+            "target": "C21"
+        },
+        {
+            "source": "FI9",
+            "target": "C22"
+        },
+        {
+            "source": "C18",
             "target": "C22"
         },
         {
@@ -485,36 +518,100 @@
             "target": "C23"
         },
         {
-            "source": "FI9",
-            "target": "C24"
-        },
-        {
-            "source": "C18",
-            "target": "C24"
-        },
-        {
-            "source": "C16",
-            "target": "C25"
-        },
-        {
             "source": "C19",
-            "target": "C25"
+            "target": "C23"
         },
         {
             "source": "C12",
-            "target": "C27"
+            "target": "C24"
         },
         {
             "source": "C13",
-            "target": "C27"
+            "target": "C24"
         },
         {
             "source": "C16",
-            "target": "C29"
+            "target": "C25"
         },
         {
             "source": "C20",
+            "target": "C25"
+        },
+        {
+            "source": "FI9",
+            "target": "C26"
+        },
+        {
+            "source": "C17",
+            "target": "C26"
+        },
+        {
+            "source": "C24",
+            "target": "C26"
+        },
+        {
+            "source": "C17",
+            "target": "C27"
+        },
+        {
+            "source": "C23",
+            "target": "C27"
+        },
+        {
+            "source": "C24",
+            "target": "C27"
+        },
+        {
+            "source": "C21",
+            "target": "C28"
+        },
+        {
+            "source": "C23",
             "target": "C29"
+        },
+        {
+            "source": "C25",
+            "target": "C29"
+        },
+        {
+            "source": "C24",
+            "target": "C30"
+        },
+        {
+            "source": "C26",
+            "target": "C30"
+        },
+        {
+            "source": "C29",
+            "target": "C30"
+        },
+        {
+            "source": "C26",
+            "target": "C31"
+        },
+        {
+            "source": "C27",
+            "target": "C31"
+        },
+        {
+            "source": "C28",
+            "target": "C31"
+        },
+        {
+            "source": "C22",
+            "target": "C32"
+        },
+        {
+            "source": "C26",
+            "target": "C32"
+        },
+        {
+            "source": "C29",
+            "target": "C32"
+        },
+        {
+            "source": "OPT1",
+            "target": "C34"
         }
     ],
     "opciones": {

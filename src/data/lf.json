@@ -156,10 +156,12 @@
             "label": "Electivas",
             "cuatrimestre": 9,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "descripcion": "Segun electivas",
+            "requeridas": 22
         },
         {
-            "id": "TESINA",
+            "id": "LF25",
             "label": "Tesina",
             "cuatrimestre": 10
         }
@@ -215,11 +217,11 @@
         },
         {
             "source": "LF4",
-            "target": "LF7"
+            "target": "LF8"
         },
         {
             "source": "LF5",
-            "target": "LF7"
+            "target": "LF8"
         },
         {
             "source": "LF2",
@@ -234,11 +236,7 @@
             "target": "LF10"
         },
         {
-            "source": "LF6",
-            "target": "LF11"
-        },
-        {
-            "source": "LF12",
+            "source": "LF7",
             "target": "LF11"
         },
         {
@@ -344,6 +342,18 @@
         {
             "source": "LF18",
             "target": "LF24"
+        },
+        {
+            "source": "LF20",
+            "target": "LF25"
+        },
+        {
+            "source": "LF21",
+            "target": "LF25"
+        },
+        {
+            "source": "LF2",
+            "target": "LF25"
         }
     ],
     "opciones": {

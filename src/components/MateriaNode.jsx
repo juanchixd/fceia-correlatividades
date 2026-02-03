@@ -6,7 +6,7 @@ const getStatusColor = (status) => {
     case "approved":
       return "var(--status-approved)";
     case "CI":
-      return "var(--status-ci)";
+      return "#f59e0b";
     case "available":
       return "var(--status-available)";
     default:
@@ -29,6 +29,12 @@ export default memo(({ data, isConnectable }) => {
         borderLeft: `4px solid ${color}`,
         opacity: isPending ? 0.8 : 1,
         transition: "transform 0.1s",
+        boxShadow: data.anual
+          ? "0 4px 12px rgba(139, 92, 246, 0.15)"
+          : "var(--shadow-card)",
+        border: data.anual
+          ? "1px solid rgba(139, 92, 246, 0.3)"
+          : "1px solid var(--border-color)",
       }}
     >
       <Handle
@@ -38,17 +44,42 @@ export default memo(({ data, isConnectable }) => {
         style={{ opacity: 0 }}
       />
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-        <span
+      <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+        <div
           style={{
-            fontSize: "10px",
-            textTransform: "uppercase",
-            color: "var(--text-secondary)",
-            fontWeight: 600,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
           }}
         >
-          {data.cuatrimestre ? `${data.cuatrimestre}° Cuatri` : "Materia"}
-        </span>
+          <span
+            style={{
+              fontSize: "10px",
+              textTransform: "uppercase",
+              color: "var(--text-secondary)",
+              fontWeight: 600,
+            }}
+          >
+            {data.cuatrimestre ? `${data.cuatrimestre}° CUATRI` : "EXTRA"}
+          </span>
+
+          {data.anual && (
+            <span
+              style={{
+                fontSize: "9px",
+                fontWeight: "800",
+                background: "#8b5cf6",
+                color: "white",
+                padding: "2px 6px",
+                borderRadius: "4px",
+                letterSpacing: "0.5px",
+              }}
+            >
+              ANUAL
+            </span>
+          )}
+        </div>
+
         <span
           style={{
             fontSize: "13px",
@@ -64,8 +95,6 @@ export default memo(({ data, isConnectable }) => {
       <div style={{ position: "absolute", top: 8, right: 8, fontSize: "10px" }}>
         {data.status === "approved" && "✅"}
         {data.status === "CI" && "⚠️"}
-        {data.status === "available" && "🔹"}
-        {isPending && "🔒"}
       </div>
 
       <Handle

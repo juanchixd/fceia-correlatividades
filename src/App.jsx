@@ -72,6 +72,7 @@ const processData = (data, userSelections = {}) => {
       id: m.id,
       type: "materia",
       data: {
+        anual: m.anual || false,
         label: displayLabel,
         originalLabel: m.label,
         cuatrimestre: m.cuatrimestre,

@@ -24,7 +24,7 @@
         {
             "id": "M1",
             "label": "Introducción a la Ingeniería Mecánica",
-            "cuatrimestre": 2
+            "cuatrimestre": 1
         },
         {
             "id": "FB5",
@@ -72,7 +72,7 @@
             "cuatrimestre": 4
         },
         {
-            "id": "F10",
+            "id": "FI0",
             "label": "Inglés",
             "cuatrimestre": 4
         },
@@ -114,7 +114,7 @@
         {
             "id": "FB19",
             "label": "Métodos Numéricos",
-            "cuatrimestre": 6
+            "cuatrimestre": 5
         },
         {
             "id": "M9",
@@ -182,14 +182,16 @@
             "cuatrimestre": 8
         },
         {
-            "id": "F13",
+            "id": "FI3",
             "label": "Legislación",
-            "cuatrimestre": 8
+            "cuatrimestre": 8,
+            "requeridas": 20
         },
         {
-            "id": "F17",
+            "id": "FI7",
             "label": "Economía y Costos",
-            "cuatrimestre": 8
+            "cuatrimestre": 8,
+            "requeridas": 20
         },
         {
             "id": "M21",
@@ -212,12 +214,12 @@
             "cuatrimestre": 9
         },
         {
-            "id": "F14",
+            "id": "FI4",
             "label": "Gestión de Calidad",
             "cuatrimestre": 9
         },
         {
-            "id": "F15",
+            "id": "FI5",
             "label": "Higiene y Seguridad",
             "cuatrimestre": 9
         },
@@ -227,31 +229,34 @@
             "cuatrimestre": 9
         },
         {
-            "id": "F16",
-            "label": "Responsabilidad Social",
+            "id": "FI6",
+            "label": "Responsabilidad Social y Recursos Humanos",
             "cuatrimestre": 10
         },
         {
-            "id": "F18",
-            "label": "Evaluación de Proyectos",
+            "id": "FI8",
+            "label": "Evaluación de Proyectos y Emprendedurismo",
             "cuatrimestre": 10
         },
         {
             "id": "M26",
             "label": "Proyecto Final",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "requeridas": 40
         },
         {
-            "id": "PPS",
+            "id": "M27",
             "label": "Práctica Profesional Supervisada",
-            "cuatrimestre": 10
+            "cuatrimestre": 10,
+            "requeridas": 40
         },
         {
             "id": "ELE1",
             "label": "Electiva I",
             "cuatrimestre": 10,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "requeridas": 30
         }
     ],
     "correlatividades": [
@@ -534,6 +539,30 @@
         {
             "source": "M21",
             "target": "M25"
+        },
+        {
+            "source": "M15",
+            "target": "M20"
+        },
+        {
+            "source": "M13",
+            "target": "M20"
+        },
+        {
+            "source": "FI3",
+            "target": "FI4"
+        },
+        {
+            "source": "FI3",
+            "target": "FI5"
+        },
+        {
+            "source": "FI3",
+            "target": "FI6"
+        },
+        {
+            "source": "FI7",
+            "target": "FI8"
         }
     ],
     "opciones": {

@@ -114,7 +114,7 @@
         {
             "id": "LM13",
             "label": "Análisis Numérico",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "LM14",
@@ -134,7 +134,7 @@
         {
             "id": "ELE1",
             "label": "Horas Electivas",
-            "cuatrimestre": 9,
+            "cuatrimestre": 10,
             "esSlot": true,
             "grupo": "electivas"
         }

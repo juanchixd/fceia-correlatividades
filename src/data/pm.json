@@ -4,7 +4,8 @@
         {
             "id": "PM3",
             "label": "Práctica Profesional Docente I",
-            "cuatrimestre": 1
+            "cuatrimestre": 1,
+            "anual": true
         },
         {
             "id": "CE1",
@@ -39,12 +40,14 @@
         {
             "id": "CE11",
             "label": "Historia Social y del Sist. Educ. Argentino",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "anual": true
         },
         {
             "id": "CE12",
             "label": "Pedagogía",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "anual": true
         },
         {
             "id": "CE6",
@@ -59,12 +62,13 @@
         {
             "id": "CE9",
             "label": "Algebra Lineal I",
-            "cuatrimestre": 3
+            "cuatrimestre": 4
         },
         {
             "id": "PM4",
             "label": "Práctica Profesional Docente II",
-            "cuatrimestre": 4
+            "cuatrimestre": 3,
+            "anual": true
         },
         {
             "id": "CE10",
@@ -74,12 +78,14 @@
         {
             "id": "CE13",
             "label": "Currículum y Didáctica",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "CE14",
             "label": "Sujetos y Aprendizajes",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "PM5",
@@ -94,17 +100,20 @@
         {
             "id": "PM9",
             "label": "Práctica Profesional Docente III",
-            "cuatrimestre": 6
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "PM8",
             "label": "Didáctica de la Matemática",
-            "cuatrimestre": 6
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "CE15",
             "label": "Examen de Suficiencia de Inglés",
-            "cuatrimestre": 6
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "PM6",
@@ -127,18 +136,20 @@
             "cuatrimestre": 7
         },
         {
-            "id": "PM12",
-            "label": "Análisis Superior",
-            "cuatrimestre": 7
-        },
-        {
             "id": "PM14",
             "label": "Práctica Profesional Docente IV",
-            "cuatrimestre": 8
+            "cuatrimestre": 7,
+            "anual": true
         },
         {
             "id": "PM15",
             "label": "Proyectos Innovadores en Educ. Matemática",
+            "cuatrimestre": 7,
+            "anual": true
+        },
+        {
+            "id": "PM12",
+            "label": "Análisis Superior",
             "cuatrimestre": 8
         },
         {

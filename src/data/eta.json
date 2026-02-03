@@ -24,7 +24,7 @@
         {
             "id": "E1",
             "label": "Introducción a la Ingeniería Eléctrica",
-            "cuatrimestre": 2
+            "cuatrimestre": 1
         },
         {
             "id": "FB4",
@@ -42,14 +42,14 @@
             "cuatrimestre": 2
         },
         {
-            "id": "F10",
+            "id": "FI0",
             "label": "Inglés",
-            "cuatrimestre": 3
+            "cuatrimestre": 2
         },
         {
             "id": "FI3",
             "label": "Legislación y Organización de Empresas",
-            "cuatrimestre": 3
+            "cuatrimestre": 2
         },
         {
             "id": "FB8",
@@ -69,12 +69,12 @@
         {
             "id": "E2",
             "label": "Mecánica Aplicada",
-            "cuatrimestre": 4
+            "cuatrimestre": 3
         },
         {
-            "id": "F14",
+            "id": "FI4",
             "label": "Gestión de la Calidad",
-            "cuatrimestre": 4
+            "cuatrimestre": 3
         },
         {
             "id": "FB11",
@@ -94,12 +94,12 @@
         {
             "id": "E3",
             "label": "Análisis de Circuitos",
-            "cuatrimestre": 5
+            "cuatrimestre": 4
         },
         {
-            "id": "F15",
+            "id": "FI5",
             "label": "Higiene y Seguridad",
-            "cuatrimestre": 5
+            "cuatrimestre": 4
         },
         {
             "id": "E4",
@@ -119,12 +119,12 @@
         {
             "id": "FB20",
             "label": "Matemática Aplicada",
-            "cuatrimestre": 6
+            "cuatrimestre": 5
         },
         {
-            "id": "F17",
+            "id": "FI7",
             "label": "Economía y Costos",
-            "cuatrimestre": 6
+            "cuatrimestre": 5
         },
         {
             "id": "E6",
@@ -144,12 +144,12 @@
         {
             "id": "E9",
             "label": "Máquinas Eléctricas I",
-            "cuatrimestre": 7
+            "cuatrimestre": 6
         },
         {
-            "id": "F16",
+            "id": "FI6",
             "label": "Responsabilidad Social",
-            "cuatrimestre": 7
+            "cuatrimestre": 6
         },
         {
             "id": "E10",
@@ -164,17 +164,17 @@
         {
             "id": "E12",
             "label": "Generación de la Energía Eléctrica",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "E13",
             "label": "Distribución de la Energía Eléctrica",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
-            "id": "F18",
+            "id": "FI8",
             "label": "Emprendedorismo",
-            "cuatrimestre": 8
+            "cuatrimestre": 7
         },
         {
             "id": "E14",
@@ -184,55 +184,64 @@
         {
             "id": "E15",
             "label": "Automatización II",
-            "cuatrimestre": 9
+            "cuatrimestre": 8
         },
         {
             "id": "E16",
             "label": "Instalaciones Eléctricas I",
-            "cuatrimestre": 9
+            "cuatrimestre": 8
         },
         {
             "id": "E17",
             "label": "Transmisión de Energía Eléctrica",
-            "cuatrimestre": 9
+            "cuatrimestre": 8
         },
         {
             "id": "ELE1",
             "label": "Electiva I",
-            "cuatrimestre": 9,
+            "cuatrimestre": 8,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "requeridas": 30
+        },
+        {
+            "id": "E18",
+            "label": "Proyecto de Ingeniería",
+            "cuatrimestre": 9,
+            "requeridas": 40
         },
         {
             "id": "E19",
-            "label": "Proyecto de Ingeniería",
-            "cuatrimestre": 10
+            "label": "Instalaciones Eléctricas II",
+            "cuatrimestre": 9
         },
         {
             "id": "E20",
-            "label": "Instalaciones Eléctricas II",
-            "cuatrimestre": 10
+            "label": "Accionamientos Eléctricos",
+            "cuatrimestre": 9
         },
         {
             "id": "E21",
-            "label": "Accionamientos Eléctricos",
-            "cuatrimestre": 10
-        },
-        {
-            "id": "E22",
             "label": "Sistemas de Potencia",
-            "cuatrimestre": 10
+            "cuatrimestre": 9
         },
         {
             "id": "ELE2",
             "label": "Electiva II",
             "cuatrimestre": 10,
             "esSlot": true,
-            "grupo": "electivas"
+            "grupo": "electivas",
+            "requeridas": 30
         },
         {
-            "id": "PPS",
+            "id": "E22",
             "label": "Práctica Profesional Supervisada",
+            "cuatrimestre": 10,
+            "requeridas": 40
+        },
+        {
+            "id": "E23",
+            "label": "Planificación y Gestión de la Energia",
             "cuatrimestre": 10
         }
     ],
@@ -255,10 +264,18 @@
         },
         {
             "source": "E1",
+            "target": "FI0"
+        },
+        {
+            "source": "E1",
             "target": "FI3"
         },
         {
             "source": "FB5",
+            "target": "FB8"
+        },
+        {
+            "source": "FB7",
             "target": "FB8"
         },
         {
@@ -287,7 +304,11 @@
         },
         {
             "source": "E1",
-            "target": "F14"
+            "target": "FI4"
+        },
+        {
+            "source": "FB10",
+            "target": "FB11"
         },
         {
             "source": "FB5",
@@ -298,7 +319,7 @@
             "target": "FB14"
         },
         {
-            "source": "FB5",
+            "source": "FB9",
             "target": "FB18"
         },
         {
@@ -311,7 +332,7 @@
         },
         {
             "source": "FI3",
-            "target": "F15"
+            "target": "FI5"
         },
         {
             "source": "E3",
@@ -327,6 +348,10 @@
         },
         {
             "source": "FB14",
+            "target": "E5"
+        },
+        {
+            "source": "E2",
             "target": "E5"
         },
         {
@@ -354,11 +379,19 @@
             "target": "FB20"
         },
         {
-            "source": "F14",
-            "target": "F17"
+            "source": "FI4",
+            "target": "FI7"
+        },
+        {
+            "source": "FI0",
+            "target": "FI7"
         },
         {
             "source": "E3",
+            "target": "E6"
+        },
+        {
+            "source": "FI5",
             "target": "E6"
         },
         {
@@ -386,8 +419,12 @@
             "target": "E9"
         },
         {
+            "source": "FI5",
+            "target": "E9"
+        },
+        {
             "source": "FI3",
-            "target": "F16"
+            "target": "FI6"
         },
         {
             "source": "FB9",
@@ -422,8 +459,8 @@
             "target": "E13"
         },
         {
-            "source": "F17",
-            "target": "F18"
+            "source": "FI7",
+            "target": "FI8"
         },
         {
             "source": "E11",
@@ -451,6 +488,10 @@
         },
         {
             "source": "E16",
+            "target": "E19"
+        },
+        {
+            "source": "E14",
             "target": "E20"
         },
         {
@@ -458,12 +499,16 @@
             "target": "E21"
         },
         {
-            "source": "E14",
-            "target": "E22"
+            "source": "E17",
+            "target": "E21"
         },
         {
-            "source": "E17",
-            "target": "E22"
+            "source": "E21",
+            "target": "E23"
+        },
+        {
+            "source": "ELE1",
+            "target": "ELE2"
         }
     ],
     "opciones": {

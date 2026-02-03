@@ -39,12 +39,14 @@
         {
             "id": "PF2.1",
             "label": "Pedagogía",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "anual": true
         },
         {
             "id": "PF2.2",
             "label": "Historia Socio-Política del Sist. Educativo",
-            "cuatrimestre": 3
+            "cuatrimestre": 3,
+            "anual": true
         },
         {
             "id": "PF2.3",
@@ -74,12 +76,14 @@
         {
             "id": "PF3.1",
             "label": "Curriculum y Didáctica",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "PF3.2",
             "label": "Teorías del Sujeto y del Aprendizaje",
-            "cuatrimestre": 5
+            "cuatrimestre": 5,
+            "anual": true
         },
         {
             "id": "PF3.3",
@@ -119,7 +123,8 @@
         {
             "id": "PF4.1",
             "label": "Residencia",
-            "cuatrimestre": 7
+            "cuatrimestre": 7,
+            "anual": true
         },
         {
             "id": "PF4.2",
