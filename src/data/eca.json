@@ -601,10 +601,6 @@
             "target": "FB5"
         },
         {
-            "source": "FB3",
-            "target": "FB5"
-        },
-        {
             "source": "FB1",
             "target": "FB6"
         },
